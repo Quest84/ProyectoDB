@@ -90,7 +90,7 @@ modalidad varchar(20) not null,
 constraint id_opcion_pk primary key(id_opcion )
 );
 
-#Creacion de tabla examen
+#Creacion de tabla examen en Oracle
 CREATE TABLE EXAMEN 
 (
   ID_EXAMEN INT NOT NULL 
@@ -106,7 +106,7 @@ CREATE TABLE EXAMEN
   ENABLE 
 );
 
-#creacion de tabla grupo
+#creacion de tabla grupo en Oracle
 CREATE TABLE GRUPO (
 ID_GRUPO INT NOT NULL,
 EDIFICIO VARCHAR2(5),
