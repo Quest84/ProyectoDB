@@ -33,6 +33,9 @@ CREATE TABLE persona(
 	ON DELETE CASCADE
 );
 
+
+
+
 # tabla opcion
 CREATE TABLE opcion(
 	num_opcion number,
@@ -87,3 +90,18 @@ modalidad varchar(20) not null,
 constraint id_opcion_pk primary key(id_opcion )
 );
 
+#Creacion de tabla examen
+CREATE TABLE EXAMEN 
+(
+  ID_EXAMEN INT NOT NULL 
+, HORARIO DATE 
+, FECHA DATE 
+, LUGAR_APLICACION VARCHAR2(30) 
+, ID_PAGO INT 
+, NUM_FOLIO_PRE INT 
+, CONSTRAINT EXAMEN_PK PRIMARY KEY 
+  (
+    ID_EXAMEN 
+  )
+  ENABLE 
+);
