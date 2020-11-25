@@ -1,21 +1,43 @@
+# tabla tipo certificado
+CREATE TABLE tipo_certificado(
+id_tipo varchar(2) NOT NULL PRIMARY KEY,
+nombre varchar (35),
+precio int
+);
+#tabla certificado
+CREATE TABLE certificados(
+id_certificado varchar(20) NOT NULL PRIMARY KEY,
+num_control varchar(13) NOT NULL,
+id_tipo_certificado varchar(2),
+id_pago int,
+CONSTRAINT alumno_certificado FOREIGN KEY(num_control) REFERENCES alumnos (num_control)
+ON DELETE CASCADE
+ON UPDATE CASCADE,
+CONSTRAINT tipo_certificado FOREIGN KEY(id_tipo_certificado) REFERENCES tipo_certificado (id_tipo)
+ON DELETE CASCADE
+ON UPDATE CASCADE,
+CONSTRAINT pago_certificado FOREIGN KEY(id_pago) REFERENCES pago(id_pago)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+);
 # tabla de alumnos 
 CREATE TABLE alumnos(
-	num_control varchar(13) NOT NULL PRIMARY KEY,
-	id_persona int,
-	constraint per_alu FOREIGN KEY (id_persona) REFERENCES persona(id_persona)
-	ON DELETE CASCADE
-	ON UPDATE CASCADE
+num_control varchar(13) NOT NULL PRIMARY KEY,
+id_persona int,
+constraint per_alu FOREIGN KEY (id_persona) REFERENCES persona(id_persona)
+ON DELETE CASCADE
+ON UPDATE CASCADE
 );
 
 # tabla unidades
 CREATE TABLE unidades(
-	id_unidad varchar(10) NOT NULL PRIMARY KEY,
-	num_unidad tinyint,
-	descripcion varchar(50),
-	clave_materia int,
-	CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave_materia)
-	ON DELETE CASCADE
-	ON UPDATE CASCADE
+id_unidad varchar(10) NOT NULL PRIMARY KEY,
+num_unidad tinyint,
+descripcion varchar(50),
+clave_materia int,
+CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave_materia)
+ON DELETE CASCADE
+ON UPDATE CASCADE
 );
 
 # tabla persona
