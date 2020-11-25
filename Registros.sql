@@ -207,3 +207,37 @@ INSERT INTO GRUPO VALUES (127,'F','L0-202',PENDIENTE);
 INSERT INTO GRUPO VALUES (128,'F','L0-203',PENDIENTE);
 INSERT INTO GRUPO VALUES (129,'F','L0-204',PENDIENTE);
 INSERT INTO GRUPO VALUES (130,'F','L0-205',PENDIENTE);
+                            
+                            
+#Insersion de datos a tabla examen
+INSERT INTO EXAMEN VALUES (1000,'14:23','25/11/2020','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1001,'12:32','01/02/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1002,'10:21','03/02/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1003,'11:23','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1004,'21:32','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1005,'13:51','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1006,'19:55','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1007,'17:42','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1008,'07:21','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1010,'24:10','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1011,'11:54','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1012,'21:45','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1013,'22:34','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1014,'20:14','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1015,'12:53','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1016,'08:23','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1017,'09:54','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1018,'21:46','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1019,'22:31','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1020,'23:59','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1021,'13:56','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1022,'16:40','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1023,'10:22','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1024,'19:12','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1025,'20:11','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1026,'18:47','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1027,'08:21','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1028,'12:54','25/11/2021','TESJo',pendiente,pendiente);
+INSERT INTO EXAMEN VALUES (1029,'07:13','25/11/2021','TESJo',pendiente,pendiente);
+                           
+                            
