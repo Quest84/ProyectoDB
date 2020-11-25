@@ -4,16 +4,18 @@ CREATE TABLE alumnos(
 	id_persona int,
 	constraint per_alu FOREIGN KEY (id_persona) REFERENCES persona(id_persona)
 	ON DELETE CASCADE
+	ON UPDATE CASCADE
 );
 
 # tabla unidades
 CREATE TABLE unidades(
 	id_unidad varchar(10) NOT NULL PRIMARY KEY,
-	num_unidad number(1),
+	num_unidad tinyint,
 	descripcion varchar(50),
 	clave_materia int,
 	CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave_materia)
 	ON DELETE CASCADE
+	ON UPDATE CASCADE
 );
 
 # tabla persona
