@@ -97,6 +97,13 @@ INSERT INTO calificaciones VALUES ('2018150480947','----',70,);
 INSERT INTO calificaciones VALUES ('2018150480930','----',65,);
 INSERT INTO calificaciones VALUES ('2018150480974','----',93,);
 INSERT INTO calificaciones VALUES ('2018150480985','----',69,);
+#Insercion tabla opcion			    
+ INSERT INTO opcion VALUES(1111,1,'Primera Oportunidad-Primera-opcion','Primera Oportunidad');
+ INSERT INTO opcion VALUES(1112,2,'Primera Oportunidad-Segunda-opcion','Primera Oportunidad');
+ INSERT INTO opcion VALUES(1113,1,'Recurse-Primera-opcion','Recurse');
+ INSERT INTO opcion VALUES(1114,2,'Recurse-Segunda-opcion','Recurse');
+ INSERT INTO opcion VALUES(1115,1,'Especial-Primera-opcion','Especial');
+ INSERT INTO opcion VALUES(1116,2,'Especial-Segunda-opcion','Especial')	;		    
 #Insercion de datos en la tabla preinscripcion                                                
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55001, '//', pendiente, pendiente, pendiente, pendiente, imagen1.jpg, 'CBT Lic. MArio Colín Sánchez', 'Atlacomulco', '92-95');
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55002, '//', pendiente, pendiente, pendiente, pendiente, imagen2.jpg, 'Escuela Preparatoria Oficial N.56', 'Jocotitlan', '88-91');
