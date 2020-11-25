@@ -1,38 +1,38 @@
 # tabla tipo certificado
 CREATE TABLE tipo_certificado(
-id_tipo varchar(2) NOT NULL PRIMARY KEY,
-nombre varchar (35),
-precio number(3)
+	id_tipo varchar(2) NOT NULL PRIMARY KEY,
+	nombre varchar (35),
+	precio number(3)
 );
 #tabla certificado
 CREATE TABLE certificados(
-id_certificado varchar(20) NOT NULL PRIMARY KEY,
-num_control varchar(13) NOT NULL,
-id_tipo_certificado varchar(2),
-id_pago int,
-CONSTRAINT alumno_certificado FOREIGN KEY(num_control) REFERENCES alumnos (num_control)
-ON DELETE CASCADE,
-CONSTRAINT tipo_certificado FOREIGN KEY(id_tipo_certificado) REFERENCES tipo_certificado (id_tipo)
-ON DELETE CASCADE,
-CONSTRAINT pago_certificado FOREIGN KEY(id_pago) REFERENCES pago(id_pago)
-ON DELETE CASCADE
+	id_certificado varchar(20) NOT NULL PRIMARY KEY,
+	num_control varchar(13) NOT NULL,
+	id_tipo_certificado varchar(2),
+	id_pago int,
+	CONSTRAINT alumno_certificado FOREIGN KEY(num_control) REFERENCES alumnos (num_control)
+	ON DELETE CASCADE,
+	CONSTRAINT tipo_certificado FOREIGN KEY(id_tipo_certificado) REFERENCES tipo_certificado (id_tipo)
+	ON DELETE CASCADE,
+	CONSTRAINT pago_certificado FOREIGN KEY(id_pago) REFERENCES pago(id_pago)
+	ON DELETE CASCADE
 );
 # tabla de alumnos 
 CREATE TABLE alumnos(
-num_control varchar(13) NOT NULL PRIMARY KEY,
-id_persona number,
-constraint per_alu FOREIGN KEY (id_persona) REFERENCES persona(id_persona)
-ON DELETE CASCADE
+	num_control varchar(13) NOT NULL PRIMARY KEY,
+	id_persona number,
+	constraint per_alu FOREIGN KEY (id_persona) REFERENCES persona(id_persona)
+	ON DELETE CASCADE
 );
 
 # tabla unidades
 CREATE TABLE unidades(
-id_unidad varchar(10) NOT NULL PRIMARY KEY,
-num_unidad number(1),
-descripcion varchar(50),
-clave_materia int,
-CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave_materia)
-ON DELETE CASCADE
+	id_unidad varchar(10) NOT NULL PRIMARY KEY,
+	num_unidad number(1),
+	descripcion varchar(50),
+	clave_materia int,
+	CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave_materia)
+	ON DELETE CASCADE
 );
 
 # tabla persona
@@ -110,8 +110,7 @@ constraint id_opcion_pk primary key(id_opcion )
 );
 
 #Creacion de tabla examen en Oracle
-CREATE TABLE EXAMEN 
-(
+CREATE TABLE EXAMEN (
   ID_EXAMEN INT NOT NULL 
 , HORARIO DATE 
 , FECHA DATE 
@@ -131,4 +130,14 @@ ID_GRUPO INT NOT NULL,
 EDIFICIO VARCHAR2(5),
 NUM_GRUPO VARCHAR2(10),
 CONSTRAINT GRUPO_PK PRIMARY KEY (ID_GRUPO)
+);
+
+
+# Tabla Pagos
+CREATE TABLE Pagos(
+	id_pago int NOT NULL,
+	Folio int NOT NULL,
+	TipoPago varchar(30) NOT NULL,
+	Cantidad int NOT NULL,
+	CONSTRAINT pk_pago PRIMARY KEY (id_pago)
 );
