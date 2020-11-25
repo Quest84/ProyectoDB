@@ -165,11 +165,9 @@ CREATE TABLE Pagos(
 #Tabla carreras
 CREATE TABLE carreras ( 
 	clave_carrera int NOT NULL,  
-	nombre varchar (30), 
-	descripcion varchar (300), 
+	nombre varchar (30),
+	objetivo_general varchar (300),
 	especialidad varchar(100), 
-	objetivo_general varchar (300), 
-	perfil_de_ingreso varchar(300), 
 	perfil_de_egreso varchar (300), 
 	ambito_laboral varchar(260), 
 	id_escuela int, 
