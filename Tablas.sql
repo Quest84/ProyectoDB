@@ -158,12 +158,12 @@ CREATE TABLE Pagos(
 CREATE TABLE carreras ( 
 	clave_carrera int NOT NULL,  
 	nombre varchar (30), 
-	descripcion varchar (100), 
+	descripcion varchar (300), 
 	especialidad varchar(100), 
-	objetivo_general varchar (150), 
-	perfil_de_ingreso varchar(200), 
-	perfil_de_egreso varchar (200), 
-	ambito_laboral varchar(100), 
+	objetivo_general varchar (300), 
+	perfil_de_ingreso varchar(300), 
+	perfil_de_egreso varchar (300), 
+	ambito_laboral varchar(260), 
 	id_escuela int, 
 	CONSTRAINT carreras_pk PRIMARY KEY (clave_carrera), 
 	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES escuela (id_descuela) ON DELETE CASCADE );
