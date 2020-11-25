@@ -51,3 +51,14 @@ CREATE TABLE Inscripciones(
 	FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
 	ON DELETE CASCADE
 );
+#Tabla calificaciones
+CREATE TABLE calificaciones(
+	num_control varchar(13) not null ,
+	id_unidad varchar(10) not null,
+	calificacion number(4,2) not null,
+	id_opcion int not null,
+	CONSTRAINT alumnos_calificaciones FOREIGN KEY(num_control) REFERENCES alumnos(num_control),
+	CONSTRAINT unidad_calificaciones FOREIGN KEY(id_unidad) REFERENCES unidades(id_unidad),
+	CONSTRAINT opcion_calificaciones FOREIGN KEY(id_opcion) REFERENCES opcion(id_opcion),
+	
+);
