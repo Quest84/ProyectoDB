@@ -5,7 +5,8 @@ id_persona int,
 constraint per_alu FOREIGN KEY (id_persona) REFERENCES persona(id_persona)
 ON DELETE CASCADE
 );
-//tabla unidades
+
+# tabla unidades
 CREATE TABLE unidades(
 id_unidad varchar(10) NOT NULL PRIMARY KEY,
 num_unidad number(1),
@@ -31,7 +32,8 @@ colonia varchar(50),
 calle varchar(50),
 ON DELETE CASCADE
 );
-//tabla opcion
+
+# tabla opcion
 CREATE TABLE opcion(
 num_opcion int,
 id_opcion int NOT NULL PRIMARY KEY,
