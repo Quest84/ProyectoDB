@@ -171,7 +171,7 @@ insert into tipo values(9604,'Historial Académico (Kardex),						'id_pago);
 insert into tipo values(9605,'Boleta',									id_pago);
 
                           
- #insersion de datos en tabla grupo          
+ #insersion de datos en tabla grupo EN ORACLE       
  INSERT INTO GRUPO VALUES (101,'A','LZ-301',PENDIENTE);
 INSERT INTO GRUPO VALUES (102,'A','LZ-302',PENDIENTE);
 INSERT INTO GRUPO VALUES (103,'A','LZ-303',PENDIENTE);
@@ -209,7 +209,7 @@ INSERT INTO GRUPO VALUES (129,'F','L0-204',PENDIENTE);
 INSERT INTO GRUPO VALUES (130,'F','L0-205',PENDIENTE);
                             
                             
-#Insersion de datos a tabla examen
+#Insersion de datos a tabla examen en ORACLE
 INSERT INTO EXAMEN VALUES (1000,'14:23','25/11/2020','TESJo',pendiente,pendiente);
 INSERT INTO EXAMEN VALUES (1001,'12:32','01/02/2021','TESJo',pendiente,pendiente);
 INSERT INTO EXAMEN VALUES (1002,'10:21','03/02/2021','TESJo',pendiente,pendiente);
