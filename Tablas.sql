@@ -72,3 +72,25 @@ folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 
 , CONSTRAINT carrera2_FK FOREIGN KEY (carrera_alterna2) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE
 , CONSTRAINT carrera3_FK FOREIGN KEY (carrera_alterna3) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE
 , CONSTRAINT idpersona_FK FOREIGN KEY (id_persona) REFERENCES persona (id_persona) ON DELETE CASCADE ENABLE);
+#Tabla constancia
+create table constancia(
+id_constancia int not null, 
+fecha date,
+num_control varchar(13) not null, 
+id_tipo int not null,
+constraint id_constancia_pk primary key(id_tipo),
+constraint num_control_fk foreign key(num_control)
+references alumno(num_control),
+constraint id_tipo_fk foreign key(id_tipo)
+references tipo(id_tipo),
+);
+#Tabla tipo para contancias
+create table tipo(
+id_tipo int not null, 
+nombre varchar(50),
+id_pago int not null,
+constraint id_tipo_pk primary key(id_tipo),
+constraint id_pago_fk foreign key(id_pago)
+references pago(id_pago)
+);
+
