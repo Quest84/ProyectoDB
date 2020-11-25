@@ -1,7 +1,7 @@
 # tabla de alumnos 
 CREATE TABLE alumnos(
 	num_control varchar(13) NOT NULL PRIMARY KEY,
-	id_persona int,
+	id_persona number,
 	constraint per_alu FOREIGN KEY (id_persona) REFERENCES persona(id_persona)
 	ON DELETE CASCADE
 );
@@ -18,7 +18,7 @@ CREATE TABLE unidades(
 
 # tabla persona
 CREATE TABLE persona(
-	id_persona varchar(20) NOT NULL PRIMARY KEY,
+	id_persona number NOT NULL PRIMARY KEY,
 	nombre varchar(30),
 	apellido_paterno varchar(40),
 	apellido_materno varchar(40),
@@ -27,7 +27,7 @@ CREATE TABLE persona(
 	correo varchar(13),
 	codigo_postal varchar(5),
 	municipio varchar(50),
-	locaidad varchar(50),
+	localidad varchar(50),
 	colonia varchar(50),
 	calle varchar(50),
 	ON DELETE CASCADE
@@ -35,7 +35,7 @@ CREATE TABLE persona(
 
 # tabla opcion
 CREATE TABLE opcion(
-	num_opcion int,
+	num_opcion number,
 	id_opcion int NOT NULL PRIMARY KEY,
 	descripcion varchar(30),
 	ON DELETE CASCADE
