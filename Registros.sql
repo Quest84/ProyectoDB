@@ -130,45 +130,47 @@ INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, ca
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55030, '//', pendiente, pendiente, pendiente, pendiente, imagen30.jpg, 'Colegio Mexiquense de Educación Técnica Plantel Ixtlahuaca', 'Ixtlahuaca', '94-97');
 
 #Incercion en tabla constancias
-insert into constancia values(8500,'02/02/2020','2018150480052',9600);
-insert into constancia values(8501,'09/01/2020','2018150480053',9600);
-insert into constancia values(8502,'19/11/2020','2018150480054',9600);
-insert into constancia values(8503,'22/09/2020','2018150480055',9600);
-insert into constancia values(8504,'25/06/2020','2018150480056',9600);
-insert into constancia values(8505,'06/04/2020','2018150480057',9601);
-insert into constancia values(8506,'16/03/2020','2018150480058',9601);
-insert into constancia values(8507,'30/10/2020','2018150480059',9601);
-insert into constancia values(8508,'25/07/2020','2018150480060',9601);
-insert into constancia values(8509,'02/08/2020','2018150480061',9601);
+insert into constancia values(8500,'02/02/2020','2018150480052',9600,13000);
+insert into constancia values(8501,'09/01/2020','2018150480053',9600,13000);
+insert into constancia values(8502,'19/11/2020','2018150480054',9600,13000);
+insert into constancia values(8503,'22/09/2020','2018150480055',9600,13000);
+insert into constancia values(8504,'25/06/2020','2018150480056',9600,13000);
+insert into constancia values(8505,'06/04/2020','2018150480057',9601,13000);
+insert into constancia values(8506,'16/03/2020','2018150480058',9601,13000);
+insert into constancia values(8507,'30/10/2020','2018150480059',9601,13000);
+insert into constancia values(8508,'25/07/2020','2018150480060',9601,13000);
+insert into constancia values(8509,'02/08/2020','2018150480061',9601,13000);
 
-insert into constancia values(8510,'23/02/2020','2018150480195',9602);
-insert into constancia values(8511,'11/04/2020','2018150480034',9602);
-insert into constancia values(8512,'05/12/2020','2018150480572',9602);
-insert into constancia values(8513,'10/10/2020','2018150480246',9602);
-insert into constancia values(8514,'15/05/2020','2018150480125',9602);
-insert into constancia values(8515,'21/08/2020','2018150480873',9603);
-insert into constancia values(8516,'03/04/2020','2018150480164',9603);
-insert into constancia values(8517,'26/06/2020','2018150480073',9603);
-insert into constancia values(8518,'09/07/2020','2018150480724',9603);
-insert into constancia values(8519,'13/12/2020','2018150480936',9603);
+insert into constancia values(8510,'23/02/2020','2018150480195',9602,13000);
+insert into constancia values(8511,'11/04/2020','2018150480034',9602,13000);
+insert into constancia values(8512,'05/12/2020','2018150480572',9602,13000);
+insert into constancia values(8513,'10/10/2020','2018150480246',9602,13000);
+insert into constancia values(8514,'15/05/2020','2018150480125',9602,13000);
+insert into constancia values(8515,'21/08/2020','2018150480873',9603,13000);
+insert into constancia values(8516,'03/04/2020','2018150480164',9603,13000);
+insert into constancia values(8517,'26/06/2020','2018150480073',9603,13000);
+insert into constancia values(8518,'09/07/2020','2018150480724',9603,13000);
+insert into constancia values(8519,'13/12/2020','2018150480936',9603,13000);
 
-insert into constancia values(8520,'07/10/2020','2018150480900',9604);
-insert into constancia values(8521,'14/03/2020','2018150480915',9604);
-insert into constancia values(8522,'01/08/2020','2018150480945',9604);
-insert into constancia values(8523,'27/06/2020','2018150480975',9604);
-insert into constancia values(8524,'12/05/2020','2018150480969',9604);
-insert into constancia values(8525,'13/11/2020','2018150480900',9605);
-insert into constancia values(8526,'05/02/2020','2018150480915',9605);
-insert into constancia values(8527,'18/12/2020','2018150480945',9605);
-insert into constancia values(8528,'01/09/2020','2018150480975',9605);
-insert into constancia values(8529,'17/01/2020','2018150480969',9605);     
+insert into constancia values(8520,'07/10/2020','2018150480900',9604,13000);
+insert into constancia values(8521,'14/03/2020','2018150480915',9604,13000);
+insert into constancia values(8522,'01/08/2020','2018150480945',9604,13000);
+insert into constancia values(8523,'27/06/2020','2018150480975',9604,13000);
+insert into constancia values(8524,'12/05/2020','2018150480969',9604,13000);
+insert into constancia values(8525,'13/11/2020','2018150480900',9605,13000);
+insert into constancia values(8526,'05/02/2020','2018150480915',9605,13000);
+insert into constancia values(8527,'18/12/2020','2018150480945',9605,13000);
+insert into constancia values(8528,'01/09/2020','2018150480975',9605,13000);
+insert into constancia values(8529,'17/01/2020','2018150480969',9605,13000);    
  #Incercion tabla tipo
-insert into tipo values(9600,'Constancia de estudios',							id_pago);
-insert into tipo values(9601,'Constancia de estudios con promedio general',				id_pago);
-insert into tipo values(9602,'Constancia de estudios con promedio del semestre inmediato anterior',	id_pago);
-insert into tipo values(9603,'Constancia de estudios con calificaciones del semestre inmediato anterior',id_pago);
-insert into tipo values(9604,'Historial Académico (Kardex),						'id_pago);
-insert into tipo values(9605,'Boleta',									id_pago);
+insert into tipo values(9600,'Constancia de estudios','Especifica el semestre y carrera actualmente cursada');
+insert into tipo values(9601,'Constancia de estudios con promedio general','Especifica el promedio de todos los semestres cursados');
+insert into tipo values(9602,'Constancia de estudios con promedio del semestre inmediato anterior','Especifica el promerio del semestre anterior');
+insert into tipo values(9603,'Constancia de estudios con calificaciones del semestre inmediato anterior','Especifica las calificaciones por materia del semestre anterior');
+insert into tipo values(9604,'Historial Académico (Kardex)','Especifica las calificaciones de las materias de todos los semestres anteriores');
+insert into tipo values(9605,'Boleta','Especifica las calificaicones por unidad de las materias del semestre terminado');
+
+
 
                           
  #insersion de datos en tabla grupo EN ORACLE       
