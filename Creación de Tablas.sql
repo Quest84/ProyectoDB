@@ -17,7 +17,7 @@ ON DELETE CASCADE
 
 # tabla persona
 CREATE TABLE persona(
-id_persona varchar(20) NOT NULL PRIMARY KEY,
+id_persona int NOT NULL PRIMARY KEY,
 nombre varchar(30),
 apellido_paterno varchar(40),
 apellido_materno varchar(40),
