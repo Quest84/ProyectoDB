@@ -47,10 +47,11 @@ CREATE TABLE Inscripciones(
 	id_cargaAcad int,
 	num_control varchar(30),
 	PRIMARY KEY (id_inscripcion),
-	FOREIGN KEY (id_cargaAcad) REFERENCES CargaAcademica (id_cargaAcad),
-	FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
+	CONSTRAINT fk_carga_inscr FOREIGN KEY (id_cargaAcad) REFERENCES CargaAcademica (id_cargaAcad),
+	CONSTRAINT fk_control_inscr FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
 	ON DELETE CASCADE
 );
+
 #Tabla calificaciones
 CREATE TABLE calificaciones(
 	num_control varchar(13) not null ,
