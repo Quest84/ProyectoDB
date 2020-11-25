@@ -64,3 +64,36 @@ INSERT INTO unidades VALUES('clavemateria-2',2,'Medios de transmisión',---);
 INSERT INTO unidades VALUES('clavemateria-3',3,'Modulación ',---);
 INSERT INTO unidades VALUES('clavemateria-4',4,'Técnicas de conmutación y multiplexación',---);
 INSERT INTO unidades VALUES('clavemateria-5',5,'Modelos y dispositivos de comunicación',---);
+                            
+#Insercion de calificaciones 
+INSERT INTO calificaciones VALUES ('2018150480052','----',89,);
+INSERT INTO calificaciones VALUES ('2018150480053','----',78,);
+INSERT INTO calificaciones VALUES ('2018150480054','----',80,);
+INSERT INTO calificaciones VALUES ('2018150480055','----',82,);
+INSERT INTO calificaciones VALUES ('2018150480056','----',90,);
+INSERT INTO calificaciones VALUES ('2018150480057','----',87,);
+INSERT INTO calificaciones VALUES ('2018150480058','----',75,);
+INSERT INTO calificaciones VALUES ('2018150480059','----',74,);
+INSERT INTO calificaciones VALUES ('2018150480060','----',91,);
+INSERT INTO calificaciones VALUES ('2018150480061','----',86,);
+
+INSERT INTO calificaciones VALUES('2018150480195','----',89,);
+INSERT INTO calificaciones VALUES('2018150480034','----',91,);
+INSERT INTO calificaciones VALUES('2018150480572','----',83,);
+INSERT INTO calificaciones VALUES('2018150480246','----',84,);
+INSERT INTO calificaciones VALUES('2018150480125','----',85,);
+INSERT INTO calificaciones VALUES('2018150480873','----',95,);
+INSERT INTO calificaciones VALUES('2018150480164','----',75,);
+INSERT INTO calificaciones VALUES('2018150480073','----',60,);
+INSERT INTO calificaciones VALUES('2018150480724','----',75,);
+INSERT INTO calificaciones VALUES('2018150480936','----',96,);
+
+INSERT INTO calificaciones VALUES ('2018150480900','----',85,);
+INSERT INTO calificaciones VALUES ('2018150480915','----',79,);
+INSERT INTO calificaciones VALUES ('2018150480945','----',81,);
+INSERT INTO calificaciones VALUES ('2018150480975','----',86,);
+INSERT INTO calificaciones VALUES ('2018150480969','----',89,);
+INSERT INTO calificaciones VALUES ('2018150480947','----',70,);
+INSERT INTO calificaciones VALUES ('2018150480930','----',65,);
+INSERT INTO calificaciones VALUES ('2018150480974','----',93,);
+INSERT INTO calificaciones VALUES ('2018150480985','----',69,);
