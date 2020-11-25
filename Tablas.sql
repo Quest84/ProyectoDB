@@ -141,3 +141,17 @@ CREATE TABLE Pagos(
 	Cantidad int NOT NULL,
 	CONSTRAINT pk_pago PRIMARY KEY (id_pago)
 );
+ 
+ #Tabla materias
+ CREATE TABLE materias( 
+	clave_materia int NOT NULL, 
+	nombre varchar(30), 
+	unidades int, 
+	creditos int, 
+	horas_practicas int, 
+	horas_teoricas int, 
+	CONSTRAINT materias_pk PRIMARY KEY (clave_materia), 
+	CONSTRAINT materias_fk1 FOREIGN KEY(id_docente) REFERENCES docente(id_docente) ON DELETE CASCADE 
+	CONSTRAINT materias_fk2 FOREIGN KEY (id_semestre) REFERENCES semestre (id_semestre)  ON DELETE CASCADE ); 
+	
+#Tabla carreras
