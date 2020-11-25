@@ -136,7 +136,7 @@ CONSTRAINT GRUPO_PK PRIMARY KEY (ID_GRUPO)
 # Tabla Pagos
 CREATE TABLE Pagos(
 	id_pago int NOT NULL,
-	Folio int NOT NULL,
+	Folio varchar(30) NOT NULL,
 	TipoPago varchar(30) NOT NULL,
 	Cantidad int NOT NULL,
 	CONSTRAINT pk_pago PRIMARY KEY (id_pago)
