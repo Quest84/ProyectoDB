@@ -51,3 +51,5 @@ CREATE TABLE Inscripciones(
 	FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
 	ON DELETE CASCADE
 );
+
+# Test mySQL
