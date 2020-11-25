@@ -52,15 +52,13 @@ CREATE TABLE persona(
 	ON DELETE CASCADE
 );
 
-
-
-
-# tabla opcion
-CREATE TABLE opcion(
-	num_opcion number,
-	id_opcion int NOT NULL PRIMARY KEY,
-	descripcion varchar(30),
-	ON DELETE CASCADE
+#Tabla opcion
+create table opcion(
+id_opcion int not null, 
+numero opcion int not null,
+descripcion varchar(50) not null, 
+modalidad varchar(20) not null, 
+constraint id_opcion_pk primary key(id_opcion )
 );
 
 # Tabla Inscripciones
@@ -97,17 +95,27 @@ folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 
 #Tabla constancia
 
 #Tabla tipo para contancias
-
-#Tabla resultados examen
-
-#Tabla opcion
-create table opcion(
-id_opcion int not null, 
-numero opcion int not null,
-descripcion varchar(50) not null, 
-modalidad varchar(20) not null, 
-constraint id_opcion_pk primary key(id_opcion )
+create table tipo(
+id_tipo int not null, 
+nombre varchar(50),
+descripcion varchar(100) ,
+constraint id_tipo_pk primary key(id_tipo)
 );
+create table constancia(
+id_constancia int not null, 
+fecha date,
+num_control varchar(13) not null, 
+id_tipo int not null,
+id_pago int not null,
+constraint id_constancia_pk primary key(id_tipo),
+constraint num_control_fk foreign key(num_control)
+references alumno(num_control),
+constraint id_tipo_fk foreign key(id_tipo)
+references tipo(id_tipo),
+constraint id_pago_fk foreign key(id_pago)
+references pago(id_pago)
+);
+#Tabla resultados examen
 
 #Creacion de tabla examen en Oracle
 CREATE TABLE EXAMEN (
