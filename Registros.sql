@@ -179,37 +179,36 @@ INSERT INTO calificaciones VALUES('2018150480985','AEC-1034-2',69,6);
 
 			    
 #Insercion de datos en la tabla preinscripcion                                                
-
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55001, '25/08/2021', 'LA002', 'IMT009', 'IAD010', 01, imagen1.jpg, 'CBT Lic. MArio Colín Sánchez', 'Atlacomulco', '92-95');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55002, '25/08/2021', 'LA002', 'II006', 'IMT009', 02, imagen2.jpg, 'Escuela Preparatoria Oficial N.56', 'Jocotitlan', '88-91');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55003, '25/08/2021', 'LA002', 'IAD010', 'LC003', 03, imagen3.jpg, 'CBT Dr. Maximiliano Ruiz Castañeda', 'Jocotitlá', '77-80');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55004, '25/08/2021', 'LC003', 'II006', 'IGE001', 04, imagen4.jpg, 'CECyTEM Plantel Ixtlahuaca', 'Ixtlahuaca', '94-97');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55005, '25/08/2021', 'LC003', 'IGE001', 'II006', 05, imagen5.jpg, 'Escuela Preparatoria Oficial No. 58', 'San Felipe Santiago', '73-76');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55006, '25/08/2021', 'LC003', 'IGE001', 'II006', 06, imagen6.jpg, 'Preparatoria Nueva Creación', 'San Bartolo Oxtotitlán', '93-96');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55007, '26/08/2021', 'LIE004', 'IME007', 'ISC005', 07, imagen7.jpg, 'ESCUELA PREPARATORIA OFICIAL NUM. 176', 'San Bartolo del Llano', '79-82');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55008, '26/08/2021', 'LIE004', 'ISC005', 'IME007', 08, imagen8.jpg, 'CECYTEM PLANTEL JIQUIPILCO', 'Jiquipilco', '80-83');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55009, '26/08/2021', 'LIE004', 'IME007', 'ISC005', 09, imagen9.jpg, 'Escuela Preparatoria Oficial No. 136', 'Ixtlahuaca', '84-87');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55010, '26/08/2021', 'ISC005', 'LIE004', 'IME007', 10, imagen10.jpg, 'Escuela Preparatoria Oficial Número 59', 'Ixtlahuaca', '87-90');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55011, '26/08/2021', 'ISC005', 'IME007', 'LIE004', 11, imagen11.jpg, 'Maestro Pedro León', 'Ixtlahuaca', '78-81');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55012, '26/08/2021', 'ISC005', 'LIE004', 'IME007', 12, imagen12.jpg, 'Centro de Estudios de Bachillerato #69', 'Ixtlahuaca', '90-93');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55013, '29/08/2021', 'II006', 'LC003', 'IGE001', 13, imagen13.jpg, 'Escuela Preparatoria Químico José Donaciano Morales', 'Ixtlahuaca', '95-98');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55014, '29/08/2021', 'II006', 'IGE001', 'LC003', 14, imagen14.jpg, 'Colegio Mexiquense de Educación Técnica Plantel Ixtlahuaca', 'Ixtlahuaca', '77-80');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55015, '29/08/2021', 'II006', 'LC003', 'IGE001', 15, imagen15.jpg, 'Escuela Preparatoria Oficial No. 071', 'Jiquipilco', '95-98');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55016, '29/08/2021', 'IME007', 'LIE004', 'ISC005', 16, imagen16.jpg, 'Preparatoria General No. EPO 172 ', 'Temoaya', '77-80');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55017, '29/08/2021', 'IME007', 'ISC005', 'LIE004', 17, imagen17.jpg, 'PREPARATORIA OFICIAL 292', 'Temoaya', '88-91');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55018, '29/08/2021', 'IME007', 'LIE004', 'ISC005', 18, imagen18.jpg, 'Escuela Preparatoria Oficial No. 303', 'Ixtlahuaca', '98-100');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55019, '30/08/2021', 'IQ008', 'IMT009', 'LIE004', 19, imagen19.jpg, 'Preparatoria Regional de Villa Victoria', 'San Pedro del Rincon', '90-93');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55020, '30/08/2021', 'IQ008', 'IME007', 'IMT009', 20, imagen20.jpg, 'Escuela Preparatoria Oficial No. 303', 'Ixtlahuaca', '77-80');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55021, '30/08/2021', 'IQ008', 'IMT009', 'IAD010', 21, imagen21.jpg, 'Escuela Preparatoria Oficial N.56', 'Jocotitlan', '70-73');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55022, '30/08/2021', 'IMT009', 'LIE004', 'IQ008', 22, imagen22.jpg, 'CBT Dr. Maximiliano Ruiz Castañeda', 'Jocotitlá', '91-94');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55023, '30/08/2021', 'IMT009', 'IQ008', 'IME007', 23, imagen23.jpg, 'Preparatoria Nueva Creación', 'San Bartolo Oxtotitlán', '82-85');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55024, '30/08/2021', IMT009', 'LA002', 'IQ008', 24, imagen24.jpg, 'Centro de Estudios de Bachillerato #69', 'Ixtlahuaca', '88-91');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55025, '31/08/2021', 'IAD010', 'ISC005', 'LA002', 25, imagen25.jpg, 'Escuela Preparatoria Oficial No. 303', 'Ixtlahuaca' '80-83');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55026, '31/08/2021', 'IAD010', 'LA002', 'ISC005', 26, imagen26.jpg, 'CBT Lic. MArio Colín Sánchez', 'Atlacomulco', '99-100');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55027, '31/08/2021', 'TS011', 'IGE001', 'LC003', 27, imagen27.jpg, 'Maestro Pedro León', 'Ixtlahuaca', '76-79');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55028, '31/08/2021', 'TS011', 'II006', 'IGE001', 28, imagen28.jpg, 'Escuela Preparatoria Químico José Donaciano Morales', 'Ixtlahuaca', '85-88');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55029, '31/08/2021', 'IGE001', 'LC003', 'II006', 29, imagen29.jpg, 'Preparatoria General No. EPO 172 ', 'Temoaya', '71-74');
-INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55030, '31/08/2021', 'IGE001', 'II006', 'LC003', 30, imagen30.jpg, 'Colegio Mexiquense de Educación Técnica Plantel Ixtlahuaca', 'Ixtlahuaca', '94-97');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55001, '//', pendiente, pendiente, pendiente, 01, imagen1.jpg, 'CBT Lic. MArio Colín Sánchez', 'Atlacomulco', '92-95');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55002, '//', pendiente, pendiente, pendiente, 02, imagen2.jpg, 'Escuela Preparatoria Oficial N.56', 'Jocotitlan', '88-91');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55003, '//', pendiente, pendiente, pendiente, 03, imagen3.jpg, 'CBT Dr. Maximiliano Ruiz Castañeda', 'Jocotitlá', '77-80');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55004, '//', pendiente, pendiente, pendiente, 04, imagen4.jpg, 'CECyTEM Plantel Ixtlahuaca', 'Ixtlahuaca', '94-97');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55005, '//', pendiente, pendiente, pendiente, 05, imagen5.jpg, 'Escuela Preparatoria Oficial No. 58', 'San Felipe Santiago', '73-76');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55006, '//', pendiente, pendiente, pendiente, 06, imagen6.jpg, 'Preparatoria Nueva Creación', 'San Bartolo Oxtotitlán', '93-96');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55007, '//', pendiente, pendiente, pendiente, 07, imagen7.jpg, 'ESCUELA PREPARATORIA OFICIAL NUM. 176', 'San Bartolo del Llano', '79-82');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55008, '//', pendiente, pendiente, pendiente, 08, imagen8.jpg, 'CECYTEM PLANTEL JIQUIPILCO', 'Jiquipilco', '80-83');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55009, '//', pendiente, pendiente, pendiente, 09, imagen9.jpg, 'Escuela Preparatoria Oficial No. 136', 'Ixtlahuaca', '84-87');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55010, '//', pendiente, pendiente, pendiente, 10, imagen10.jpg, 'Escuela Preparatoria Oficial Número 59', 'Ixtlahuaca', '87-90');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55011, '//', pendiente, pendiente, pendiente, 11, imagen11.jpg, 'Maestro Pedro León', 'Ixtlahuaca', '78-81');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55012, '//', pendiente, pendiente, pendiente, 12, imagen12.jpg, 'Centro de Estudios de Bachillerato #69', 'Ixtlahuaca', '90-93');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55013, '//', pendiente, pendiente, pendiente, 13, imagen13.jpg, 'Escuela Preparatoria Químico José Donaciano Morales', 'Ixtlahuaca', '95-98');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55014, '//', pendiente, pendiente, pendiente, 14, imagen14.jpg, 'Colegio Mexiquense de Educación Técnica Plantel Ixtlahuaca', 'Ixtlahuaca', '77-80');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55015, '//', pendiente, pendiente, pendiente, 15, imagen15.jpg, 'Escuela Preparatoria Oficial No. 071', 'Jiquipilco', '95-98');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55016, '//', pendiente, pendiente, pendiente, 16, imagen16.jpg, 'Preparatoria General No. EPO 172 ', 'Temoaya', '77-80');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55017, '//', pendiente, pendiente, pendiente, 17, imagen17.jpg, 'PREPARATORIA OFICIAL 292', 'Temoaya', '88-91');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55018, '//', pendiente, pendiente, pendiente, 18, imagen18.jpg, 'Escuela Preparatoria Oficial No. 303', 'Ixtlahuaca', '98-100');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55019, '//', pendiente, pendiente, pendiente, 19, imagen19.jpg, 'Preparatoria Regional de Villa Victoria', 'San Pedro del Rincon', '90-93');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55020, '//', pendiente, pendiente, pendiente, 20, imagen20.jpg, 'Escuela Preparatoria Oficial No. 303', 'Ixtlahuaca', '77-80');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55021, '//', pendiente, pendiente, pendiente, 21, imagen21.jpg, 'Escuela Preparatoria Oficial N.56', 'Jocotitlan', '70-73');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55022, '//', pendiente, pendiente, pendiente, 22, imagen22.jpg, 'CBT Dr. Maximiliano Ruiz Castañeda', 'Jocotitlá', '91-94');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55023, '//', pendiente, pendiente, pendiente, 23, imagen23.jpg, 'Preparatoria Nueva Creación', 'San Bartolo Oxtotitlán', '82-85');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55024, '//', pendiente, pendiente, pendiente, 24, imagen24.jpg, 'Centro de Estudios de Bachillerato #69', 'Ixtlahuaca', '88-91');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55025, '//', pendiente, pendiente, pendiente, 25, imagen25.jpg, 'Escuela Preparatoria Oficial No. 303', 'Ixtlahuaca' '80-83');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55026, '//', pendiente, pendiente, pendiente, 26, imagen26.jpg, 'CBT Lic. MArio Colín Sánchez', 'Atlacomulco', '99-100');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55027, '//', pendiente, pendiente, pendiente, 27, imagen27.jpg, 'Maestro Pedro León', 'Ixtlahuaca', '76-79');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55028, '//', pendiente, pendiente, pendiente, 28, imagen28.jpg, 'Escuela Preparatoria Químico José Donaciano Morales', 'Ixtlahuaca', '85-88');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55029, '//', pendiente, pendiente, pendiente, 29, imagen29.jpg, 'Preparatoria General No. EPO 172 ', 'Temoaya', '71-74');
+INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55030, '//', pendiente, pendiente, pendiente, 30, imagen30.jpg, 'Colegio Mexiquense de Educación Técnica Plantel Ixtlahuaca', 'Ixtlahuaca', '94-97');
 #Insercion resultados examen
 INSERT INTO Resultado VALUES (	1000001,	'APROBADO'	,1000,	55001,	90);
 INSERT INTO Resultado VALUES (	1000002,	'RECHAZADO'	,1001,	55002,	40);
@@ -650,6 +649,75 @@ INSERT INTO materias VALUES('1029',"Taller de herramientas intelectuales",5,5,2,
 INSERT INTO materias VALUES('1030',"Introduccion a la contabilidad financiera",6,6,2,4,'x','x');
 INSERT INTO materias VALUES('1001',"Administracion",4,4,2,2,'x','x');
 INSERT INTO materias VALUES('1030',"Fundamentos de investigacion",4,4,2,2,'x','x');
+
+
+--------------> resgistros carreras
+INSERT INTO carreras VALUES ('IGE001','INGENIERIA EN GESTION EMPRESARIAL','Formar integralmente profesionales que contribuyan a la gestión de empresas e innovación de procesos; así como al diseño, implementación y desarrollo de sistemas estratégicos de negocios', 
+			    'Desarrollo de negocios e innovacion de procesos en las organizaciones',
+			    'Desarrollar y aplicar habilidades directivas y la ingeniería en el diseño, creación, gestión, desarrollo, fortalecimiento e innovación de las organizaciones, con una orientación sistémica y sustentable para la toma de decisiones en forma efectiva',
+			    'podrá desempeñar eficientemente funciones derivadas del área de producción, finanzas, recursos humanos, mercadotecnia y auditoría, asimismo podrá fungir como asesor o consultor de empresas, encargarse de la administración y gestión de empresas, públicas y privadas',
+			    10101); 
+			    
+INSERT INTO carreras VALUES ('LA002','LICENCIATURA EN ARQUITECTURA', 'Formar profesionistas líderes con excelencia académica y humanística capaces de diseñar y construir el hábitat humano y participar en la toma de decisiones inherentes al mismo, con vocación de servicio a la sociedad, dentro de un marco de sustentabilidad',
+			    '--',
+			    'Realiza, en su totalidad, el proceso del proyecto arquitectónico y urbano, así como su construcción, sus aspectos teórico-prácticos  con una visión crítica  e innovadora, dentro de un marco de calidad  como satisfactor de un desarrollo comunitario y personal',
+			    'profesional que puede laboral en instituciones públicas o privadas, en la micro, mediana o en grandes empresas; así mismo, desempeñarse en diversas áreas  de aplicación de proyectos arquitectónicos y Urbanos',
+			    10101); 
+			    
+INSERT INTO carreras VALUES ('LC003','LICENCIATURA EN CONTADURIA',  'formar profesionalitas de la contaduria, capaces de diseñar, establecer,aplicar, controlar y evaluar sistemas de informacion contable, administrativa,financiera y fiscal',
+			    'Fiscal financiera',
+			    'Domina y aplica los principios de contabilidad generalmente aceptados, las normas y procedimientos  de auditorías nacionales e internacionales.Diseña, asesora y propone estrategias que permitan la toma de decisiones  de inversión y financiamiento, así como subestaciones eléctricas  e instalaciones de alta y baja tensión. 
+			     Analiza e interpreta  y aplica las leyes fiscales, mercantiles, civiles, laborales y ambientales',
+			    'profesional que puede laborar en todo tipo de organizaciones nacionales e internacionales, áreas industriales y de servicio, del sector público y privado; ocupando niveles gerenciales o directivos desarrollando sistemas de información financiera para una adecuada toma de decisiones',
+			    10101); 
+			    
+INSERT INTO carreras VALUES ('LIE004','LICENCIATURA EN INGENIERIA ELECTROMECANICA',' Formar profesionistas de excelencia en Ingeniería Electromecánica, con actitud emprendedora, con liderazgo y capacidad de: analizar, diagnosticar, diseñar, seleccionar, instalar, administrar, mantener e innovar sistemas electromecánicos, en forma eficiente, segura y económica',
+			     'Automatizacion industrial',
+			     'Diseña, selecciona, instala y supervisa sistemas electro-neumáticos y electro-hidráulicos, sistemas de control lógico programable y control numérico.',
+			     'profesional que puede  desempeñarse en todo de industria u organizaciones: administrando, desarrollando proyectos y manteniendo los equipos en condiciones óptimos de operación',
+			     10101); 
+			     
+INSERT INTO carreras VALUES ('ISC005','INGENIERIA EN SISTEMAS COMPUTACIONALES', 'Formar profesionistas de manera integral con capacidad analítica, crítica, creativa y de liderazgo que aporten soluciones computacionales en las organizaciones, aplicando las tecnologías de información y de las comunicaciones',
+			     'Sistemas distribuidos',
+			     'Posee una visión empresarial y detecta áreas de oportunidad para aprender y desarrollar proyectos aplicado las tecnologías de información  y de las  comunicaciones.Desarrolla y administra sistemas de información, redes de computadoras y aplicaciones distribuidas.Analiza, desarrolla y programa modelos matemáticos, estadísticos y de simulación.',
+			     'profesional que puede laborar en todo tipo de organizaciones, administrando centros de procesamiento electrónico de datos y solucionando problemas administrativos y científicos.',
+			     10101);  
+			     
+INSERT INTO carreras VALUES ('II006','INGENIERIA INDUSTRIAL', 'Formar profesionales que contribuyan al desarrollo sustentable, con una visión sistemática, que responda a los retos que presentan los constantes cambios, en los sistemas de producción de bienes y servicios en el entorno global',
+			     ' sistemas de manufactura',
+			     ' Diseña, implementa, administra y mejora sistemas integrados de abastecimiento, producción y distribución de organizaciones productoras de bienes y servicios, de forma sustentable y considerando las normas nacionales e internacionales.',
+			     'profesional que puede laborar en instituciones públicas o privadas en micro, mediana o en grandes empresas; así mismo, desempeñarse en diversas áreas de aplicación de la ingeniería  industrial.',
+			     10101); 
+			     
+INSERT INTO carreras VALUES ('IME007','INGENIERIA MECATRONICA',' Formar profesionistas de la ingeniería con una base científica, tecnológica y humanística capaces de desarrollar, mantener e innovar sistemas, procesos y productos industriales y de servicios con un enfoque mecatrónico',
+			     'Automatizacion  en sistemas de produccion',
+			     'Proyecta, diseña, simula y construye sistemas, procesos, equipos y productos mecatrónicos.',
+			     'profesional que puede laborar en instituciones del área industrial, la investigación y el desarrollo tecnológico.',
+			     10101); 
+			     
+INSERT INTO carreras VALUES ('IQ008','INGENIERIA QUIMICA','Formar profesionistas en Ingeniería Química competentes para investigar, generar y aplicar el conocimiento científico y tecnológico, que le permita identificar y resolver problemas de diseño, operación, adaptación, optimización y administración en industrias químicas',
+			     'Gestion ambiental',
+			     'Diseña, selecciona, opera, optimiza y controla procesos en industrias químicas y de servicios con base en el desarrollo tecnológico de acuerdo a las normas de higiene y seguridad, de manera sustentable.',
+			     'puede integrarse con éxito en empresas públicas y privadas, en laboratorios de investigación así como en industrias extractivas, de transformación y de procesos químicos',
+			     10101); 
+			     
+INSERT INTO carreras VALUES ('IMT009','INGENIERIA EN MATERIALES','Formar profesionales éticos competentes con capacidad de liderazgo, actitud emprendedora y creativa para diseñar, investigar, desarrollar, controlar, innovar y solucionar problemas, en la ingeniería y tecnología de los materiales tradicionales, avanzados, biomateriales y nanomateriales ',
+			     'Desarrollo e innovacion de materiales funcionalizados',
+			     'Aplicar los conocimientos para optimizar los procesos de obtención, transformación y fabricación  de los materiales poliméricos, metálicos, cerámicos, compuestos, biomateriales y nanomateriales.',
+			     'La industria del plástico (polímeros),La industria del aluminio,La industria de la cerámica',
+			     10101); 
+			     
+INSERT INTO carreras VALUES ('IAD010','INGENIERIA EN ANIMACION DIGITAL','Formar profesionistas capaces de adaptar, desarrollar y aplicar recursos tecnológicos en la producción de animación digital y efectos visuales, impulsando la tecnología para responder a los desafíos de las industrias de la animación digital ',
+			     'Animacion digital y publicidad',
+			     'Implementa técnicas y procesos de producción de actualidad en las industrias de la animación digital y los efectos visuales',
+			     '--',
+			     10101); 
+			     
+INSERT INTO carreras VALUES ('TS011','TURISMO','El Turismo Rural aporta, al perfil del Licenciado en Turismo la oportunidad de experimentar el encuentro con las diferentes formas de vivir de las comunidades que cohabitan en un ambiente rural y además lo sensibiliza sobre el respeto y valor de su identidad cultural',
+			     '--',
+			     'Promueve el desarrollo sustentable en el turismo fomentando el respeto a la cultura y la naturaleza con un compromiso ético.',
+			     '--',
+			     10101); 
 
 
 ######################## REGISTROS SEMESTRE ###########################
