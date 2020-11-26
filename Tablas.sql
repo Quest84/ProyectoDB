@@ -77,7 +77,7 @@ CREATE TABLE calificaciones(
 
 #Tabla preinscripcion
 CREATE TABLE preinscripcion (
-folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 INT NOT NULL, carrera_alterna3 INT NOT NULL,
+folio INT NOT NULL, fecha DATE, carrera_alterna1 varchar(10) NOT NULL, carrera_alterna2 varchar(10) NOT NULL, carrera_alterna3 varchar(10) NOT NULL,
 id_persona INT NOT NULL, fotografia NVARCHAR2(20), escuela_procedencia NVARCHAR2(100), municipio_escuela NVARCHAR2(100), promedio NVARCHAR2(10),
 CONSTRAINT folio_PK PRIMARY KEY (folio) ENABLE,
 CONSTRAINT carrera1_FK FOREIGN KEY (carrera_alterna1) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE,
