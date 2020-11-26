@@ -41,7 +41,9 @@ CREATE TABLE persona(
 	nombre varchar(30),
 	apellido_paterno varchar(40),
 	apellido_materno varchar(40),
+	curp varchar(18),
 	sexo char,
+	estado varchar(50),
 	telefono number(10),
 	correo varchar(13),
 	codigo_postal varchar(5),
@@ -55,7 +57,7 @@ CREATE TABLE persona(
 #Tabla opcion
 create table opcion(
 id_opcion int not null, 
-numero opcion int not null,
+nombre_opcion varchar(50) not null,
 descripcion varchar(50) not null, 
 modalidad varchar(20) not null, 
 constraint id_opcion_pk primary key(id_opcion )
@@ -76,13 +78,13 @@ CREATE TABLE calificaciones(
 
 #Tabla preinscripcion
 CREATE TABLE preinscripcion (
-folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 INT NOT NULL, carrera_alterna3 INT NOT NULL
-, id_persona INT NOT NULL, fotografia NVARCHAR2(20), escuela_procedencia NVARCHAR2(100), municipio_escuela NVARCHAR2(100), promedio NVARCHAR2(10)
-, CONSTRAINT folio_PK PRIMARY KEY (folio) ENABLE
-, CONSTRAINT carrera1_FK FOREIGN KEY (carrera_alterna1) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE
-, CONSTRAINT carrera2_FK FOREIGN KEY (carrera_alterna2) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE
-, CONSTRAINT carrera3_FK FOREIGN KEY (carrera_alterna3) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE
-, CONSTRAINT idpersona_FK FOREIGN KEY (id_persona) REFERENCES persona (id_persona) ON DELETE CASCADE ENABLE);
+folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 INT NOT NULL, carrera_alterna3 INT NOT NULL,
+id_persona INT NOT NULL, fotografia NVARCHAR2(20), escuela_procedencia NVARCHAR2(100), municipio_escuela NVARCHAR2(100), promedio NVARCHAR2(10),
+CONSTRAINT folio_PK PRIMARY KEY (folio) ENABLE,
+CONSTRAINT carrera1_FK FOREIGN KEY (carrera_alterna1) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE,
+CONSTRAINT carrera2_FK FOREIGN KEY (carrera_alterna2) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE, 
+CONSTRAINT carrera3_FK FOREIGN KEY (carrera_alterna3) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE,
+CONSTRAINT idpersona_FK FOREIGN KEY (id_persona) REFERENCES persona (id_persona) ON DELETE CASCADE ENABLE);
 #Tabla constancia
 create table constancia(
 id_constancia int not null, 
