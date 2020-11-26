@@ -141,7 +141,7 @@ CONSTRAINT GRUPO_PK PRIMARY KEY (ID_GRUPO)
 );
 
 
-################### MODULO INSCRIPCIONES ####################
+################### MODULO INSCRIPCIONES ###################
 # Tabla Pagos
 CREATE TABLE Pagos(
 	id_pago int NOT NULL,
