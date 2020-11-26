@@ -657,12 +657,31 @@ INSERT INTO Semestre VALUES ('1007', 'Septimo', '2020-2021', CARRERA_PENDIENTE);
 INSERT INTO Semestre VALUES ('1008', 'Octavo', 	'2020-2021', CARRERA_PENDIENTE);
 INSERT INTO Semestre VALUES ('1009', 'Noveno', 	'2020-2021', CARRERA_PENDIENTE);
 
+INSERT INTO Semestre VALUES ('2001', 'Primero', '2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2002', 'Segundo', '2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2003', 'Tercero', '2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2004', 'Cuarto', 	'2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2005', 'Quinto', 	'2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2006', 'Sexto', 	'2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2007', 'Septimo', '2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2008', 'Octavo', 	'2021-2022', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('2009', 'Noveno', 	'2021-2022', CARRERA_PENDIENTE);
+
+INSERT INTO Semestre VALUES ('3001', 'Primero', '2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3002', 'Segundo', '2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3003', 'Tercero', '2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3004', 'Cuarto', 	'2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3005', 'Quinto', 	'2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3006', 'Sexto', 	'2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3007', 'Septimo', '2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3008', 'Octavo', 	'2022-2023', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('3009', 'Noveno', 	'2022-2023', CARRERA_PENDIENTE);
 
 ####################### REGISTROS INSTITUCIÓN ########################
-INSERT INTO Insitucion VALUES ('1010101', '', 'Tecnológico de Estudios Superiores de Jocotitlán', 'Jocotitlán', '5564334568', 'tesjo@gmail.com');
-INSERT INTO Insitucion VALUES ('1010110', '', 'Tecnológico de Estudios Superiores de Jilotepec', 'Jilotepec', '5564334561', 'tesji@gmail.com');
-INSERT INTO Insitucion VALUES ('1010111', '', 'Tecnológico de Estudios Superiores de Toluca', 'Toluca', '5564334562', 'testo@gmail.com');
-INSERT INTO Insitucion VALUES ('1011000', '', 'Tecnológico de Estudios Superiores de San Felipe del Progreso', 'San Felipe del Progreso', '5564334564', 'tesfe@gmail.com');
+INSERT INTO Insitucion VALUES (10101, '', 'Tecnológico de Estudios Superiores de Jocotitlán', 'Jocotitlán', '5564334568', 'tesjo@gmail.com');
+INSERT INTO Insitucion VALUES (10110, '', 'Tecnológico de Estudios Superiores de Jilotepec', 'Jilotepec', '5564334561', 'tesji@gmail.com');
+INSERT INTO Insitucion VALUES (10111, '', 'Tecnológico de Estudios Superiores de Toluca', 'Toluca', '5564334562', 'testo@gmail.com');
+INSERT INTO Insitucion VALUES (11000, '', 'Tecnológico de Estudios Superiores de San Felipe del Progreso', 'San Felipe del Progreso', '5564334564', 'tesfe@gmail.com');
 
 
 CREATE TABLE Institucion(
