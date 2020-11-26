@@ -644,3 +644,33 @@ INSERT INTO materias VALUES('1029',"Taller de herramientas intelectuales",5,5,2,
 INSERT INTO materias VALUES('1030',"Introduccion a la contabilidad financiera",6,6,2,4,'x','x');
 INSERT INTO materias VALUES('1001',"Administracion",4,4,2,2,'x','x');
 INSERT INTO materias VALUES('1030',"Fundamentos de investigacion",4,4,2,2,'x','x');
+
+
+######################## REGISTROS SEMESTRE ###########################
+INSERT INTO Semestre VALUES ('1001', 'Primero', '2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1002', 'Segundo', '2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1003', 'Tercero', '2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1004', 'Cuarto', 	'2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1005', 'Quinto', 	'2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1006', 'Sexto', 	'2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1007', 'Septimo', '2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1008', 'Octavo', 	'2020-2021', CARRERA_PENDIENTE);
+INSERT INTO Semestre VALUES ('1009', 'Noveno', 	'2020-2021', CARRERA_PENDIENTE);
+
+
+####################### REGISTROS INSTITUCIÓN ########################
+INSERT INTO Insitucion VALUES ('1010101', '', 'Tecnológico de Estudios Superiores de Jocotitlán', 'Jocotitlán', '5564334568', 'tesjo@gmail.com');
+INSERT INTO Insitucion VALUES ('1010110', '', 'Tecnológico de Estudios Superiores de Jilotepec', 'Jilotepec', '5564334561', 'tesji@gmail.com');
+INSERT INTO Insitucion VALUES ('1010111', '', 'Tecnológico de Estudios Superiores de Toluca', 'Toluca', '5564334562', 'testo@gmail.com');
+INSERT INTO Insitucion VALUES ('1011000', '', 'Tecnológico de Estudios Superiores de San Felipe del Progreso', 'San Felipe del Progreso', '5564334564', 'tesfe@gmail.com');
+
+
+CREATE TABLE Institucion(
+	id_escuela int NOT NULL,
+	Matricula varchar(30) NOT NULL,
+	Nombre varchar(30) NOT NULL,
+	Ubicacion varchar(30) NOT NULL,
+	Telefono varchar(15) NOT NULL,
+	Correo varchar(30) NOT NULL,
+	CONSTRAINT pk_escuela PRIMARY KEY (id_escuela)
+);
