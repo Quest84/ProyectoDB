@@ -16,7 +16,7 @@ ON UPDATE CASCADE,
 CONSTRAINT tipo_certificado FOREIGN KEY(id_tipo_certificado) REFERENCES tipo_certificado (id_tipo)
 ON DELETE CASCADE
 ON UPDATE CASCADE,
-CONSTRAINT pago_certificado FOREIGN KEY(id_pago) REFERENCES pago(id_pago)
+CONSTRAINT pago_certificado FOREIGN KEY(id_pago) REFERENCES Pagos(id_pago)
 ON DELETE CASCADE
 ON UPDATE CASCADE
 );
