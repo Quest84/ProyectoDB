@@ -108,38 +108,38 @@ INSERT INTO alumnos VALUES ('2018150480985',29);
 INSERT INTO alumnos VALUES ('2018150480988',30);
 
 # Registros Unidades
-INSERT INTO unidades VALUES ('clavemateria-1',1,'Arquitecturas de cómputo',----);
-INSERT INTO unidades VALUES ('clavemateria-2',2,'Estructura y funcionamiento de la CPU',----);
-INSERT INTO unidades VALUES ('clavemateria-3',3,'Componentes para ensamble de equipo de computo',----);
-INSERT INTO unidades VALUES ('clavemateria-4',4,'Procesamiento paralelo',----);
-INSERT INTO unidades VALUES ('clavemateria-1',1,'Sistemas operativos',----);
-INSERT INTO unidades VALUES ('clavemateria-2',2,'Administracion de procesos y hyperprocesador',----);
-INSERT INTO unidades VALUES ('clavemateria-3',3,'Administracion de memoria',----);
-INSERT INTO unidades VALUES ('clavemateria-4',4,'Administracion de Entrada-Salida',----);
-INSERT INTO unidades VALUES ('clavemateria-5',5,'Sistemas de archivos',----);
-INSERT INTO unidades VALUES ('clavemateria-6',6,'Proteccion y seguridad',----);
+INSERT INTO unidades VALUES ('SCD-1003-1',1,'Arquitecturas de cómputo','SCD-1003');
+INSERT INTO unidades VALUES ('SCD-1003-2',2,'Estructura y funcionamiento de la CPU','SCD-1003');
+INSERT INTO unidades VALUES ('SCD-1003-3',3,'Componentes para ensamble de equipo de computo','SCD-1003');
+INSERT INTO unidades VALUES ('SCD-1003-4',4,'Procesamiento paralelo','SCD-1003');
+INSERT INTO unidades VALUES ('AEC-1061-1',1,'Sistemas operativos','AEC-1061');
+INSERT INTO unidades VALUES ('AEC-1061-2',2,'Administracion de procesos y hyperprocesador','AEC-1061');
+INSERT INTO unidades VALUES ('AEC-1061-3',3,'Administracion de memoria','AEC-1061');
+INSERT INTO unidades VALUES ('AEC-1061-4',4,'Administracion de Entrada-Salida','AEC-1061');
+INSERT INTO unidades VALUES ('AEC-1061-5',5,'Sistemas de archivos','AEC-1061');
+INSERT INTO unidades VALUES ('AEC-1061-6',6,'Proteccion y seguridad','AEC-1061');
 
-INSERT INTO unidades VALUES('clavemateria-1',1,'Fundamentos de Ingeneria en Software',pendiente);
-INSERT INTO unidades VALUES('clavemateria-5',5,'Introduccion a la Animacion Por Computadora',pendiente);
-INSERT INTO unidades VALUES('clavemateria-2',2,'El modelo de negocio',pendiente);
-INSERT INTO unidades VALUES('clavemateria-3',3,'Ingenria de Requerimentos',pendiente);
-INSERT INTO unidades VALUES('clavemateria-4',4,'Modelo de Analisis',pendiente);
-INSERT INTO unidades VALUES('clavemateria-5',5,'Calidad de Software',pendiente);
-INSERT INTO unidades VALUES('clavemateria-1',1,'Introduccion a la Graficacion Por Computadora',pendiente);
-INSERT INTO unidades VALUES('clavemateria-2',2,'Graficacion 2D',pendeinte);
-INSERT INTO unidades VALUES('clavemateria-3',3,'Graficacion 3D',pendiente);
-INSERT INTO unidades VALUES('clavemateria-4',4,'Relleno, Iluminacion y Sombreado',pendeinte);
+INSERT INTO unidades VALUES('SCC-1007-1',1,'Fundamentos de Ingeneria en Software','SCC-1007');
+INSERT INTO unidades VALUES('SCC-1010-5',5,'Introduccion a la Animacion Por Computadora','SCC-1010');
+INSERT INTO unidades VALUES('SCC-1007-2',2,'El modelo de negocio','SCC-1007');
+INSERT INTO unidades VALUES('SCC-1007-3',3,'Ingenria de Requerimentos','SCC-1007');
+INSERT INTO unidades VALUES('SCC-1007-4',4,'Modelo de Analisis','SCC-1007');
+INSERT INTO unidades VALUES('SCC-1007-5',5,'Calidad de Software','SCC-1007');
+INSERT INTO unidades VALUES('SCC-1010-1',1,'Introduccion a la Graficacion Por Computadora','SCC-1010');
+INSERT INTO unidades VALUES('SCC-1010-2',2,'Graficacion 2D','SCC-1010');
+INSERT INTO unidades VALUES('SCC-1010-3',3,'Graficacion 3D','SCC-1010');
+INSERT INTO unidades VALUES('SCC-1010-4',4,'Relleno, Iluminacion y Sombreado','SCC-1010');
 
-INSERT INTO unidades VALUES('clavemateria-1',1,'El SGBD y el Lenguaje de Definición de Datos ',---);
-INSERT INTO unidades VALUES('clavemateria-2',2,'Lenguaje de Manipulación de Datos ',---);
-INSERT INTO unidades VALUES('clavemateria-3',3,'Administración de base de datos ',---);
-INSERT INTO unidades VALUES('clavemateria-4',4,'SQL Procedural ',---);
-INSERT INTO unidades VALUES('clavemateria-5',5,'Tecnologías de conectividad de base de datos  ',---);
-INSERT INTO unidades VALUES('clavemateria-1',1,'Sistema de comunicación',---);
-INSERT INTO unidades VALUES('clavemateria-2',2,'Medios de transmisión',---);
-INSERT INTO unidades VALUES('clavemateria-3',3,'Modulación ',---);
-INSERT INTO unidades VALUES('clavemateria-4',4,'Técnicas de conmutación y multiplexación',---);
-INSERT INTO unidades VALUES('clavemateria-5',5,'Modelos y dispositivos de comunicación',---);
+INSERT INTO unidades VALUES('SCA-1025-1',1,'El SGBD y el Lenguaje de Definición de Datos ','SCA-1025');
+INSERT INTO unidades VALUES('SCA-1025-2',2,'Lenguaje de Manipulación de Datos ','SCA-1025');
+INSERT INTO unidades VALUES('SCA-1025-3',3,'Administración de base de datos ','SCA-1025');
+INSERT INTO unidades VALUES('SCA-1025-4',4,'SQL Procedural ','SCA-1025');
+INSERT INTO unidades VALUES('SCA-1025-5',5,'Tecnologías de conectividad de base de datos ','SCA-1025');
+INSERT INTO unidades VALUES('AEC-1034-1',1,'Sistema de comunicación','AEC-1034');
+INSERT INTO unidades VALUES('AEC-1034-2',2,'Medios de transmisión','AEC-1034');
+INSERT INTO unidades VALUES('AEC-1034-3',3,'Modulación ','AEC-1034');
+INSERT INTO unidades VALUES('AEC-1034-4',4,'Técnicas de conmutación y multiplexación','AEC-1034');
+INSERT INTO unidades VALUES('AEC-1034-5',5,'Modelos y dispositivos de comunicación','AEC-1034');
                             
 #Insercion de calificaciones 
 INSERT INTO calificaciones VALUES('2018150480052',-,89,2);
@@ -605,13 +605,13 @@ INSERT INTO certificados VALUES('C30','2018150480936','CC', 14029);
 			    
 			   #Incercion en tabla materias
 
-INSERT INTO materias VALUES("AED-1285","Fundamentos de programacion", ,5,3,2,'x','x');
-INSERT INTO materias VALUES("AED-1286","Programacion orientada a objetos", ,5,3,2,'x','x');
-INSERT INTO materias VALUES("AED-1026","Estructura de datos", ,5,3,2,'x','x');
+INSERT INTO materias VALUES('SCC-1010','Graficacion',5,4,2,2,'x','x');
+INSERT INTO materias VALUES('AEC-1061','Sistemas Operativos',6,4,2,2,'x','x');
+INSERT INTO materias VALUES('SCC-1007','Fundametos de Ingenria en Software',5,4,2,2,'x','x');
 
-INSERT INTO materias VALUES("ACD-0908",'DESARROLLO SUSTENTABLE',5,5,2,3,'x','x');
-INSERT INTO materias VALUES('AEC-1047','METROLOGUIA Y NORMALIZACION',4,4,2,2,'x','x');
-INSERT INTO materias VALUES('EMC-1022','ELECTRISIDAD Y MAGNETISMO',4,4,2,2,'x','x');
+INSERT INTO materias VALUES('SCD-1003','Arquitectura de Computadoras',4,5,2,3,'x','x');
+INSERT INTO materias VALUES('SCA-1025','TALLER DE BASE DE DATOS',5,4,4,0,'x','x');
+INSERT INTO materias VALUES('AEC-1034','Fundamentos De Telecomunicaciones',5,4,2,2,'x','x');
 
 INSERT INTO materias VALUES('ACC-0906','Fundametos de investigacion',4,4,2,2,'x','x');
 INSERT INTO materias VALUES('ARC-1017','Geometria descriptiva II',4,4,2,2,'x','x');
