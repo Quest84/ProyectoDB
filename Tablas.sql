@@ -93,14 +93,6 @@ folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 
 , CONSTRAINT carrera3_FK FOREIGN KEY (carrera_alterna3) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE
 , CONSTRAINT idpersona_FK FOREIGN KEY (id_persona) REFERENCES persona (id_persona) ON DELETE CASCADE ENABLE);
 #Tabla constancia
-
-#Tabla tipo para contancias
-create table tipo(
-id_tipo int not null, 
-nombre varchar(50),
-descripcion varchar(100) ,
-constraint id_tipo_pk primary key(id_tipo)
-);
 create table constancia(
 id_constancia int not null, 
 fecha date,
@@ -115,8 +107,25 @@ references tipo(id_tipo),
 constraint id_pago_fk foreign key(id_pago)
 references pago(id_pago)
 );
-#Tabla resultados examen
+#Tabla tipo para contancias
+create table tipo(
+id_tipo int not null, 
+nombre varchar(50),
+descripcion varchar(100) ,
+constraint id_tipo_pk primary key(id_tipo)
+);
 
+#Tabla resultados examen
+create table resultados (
+id_resultados int not null,
+resultado varchar(30),
+id_examen int not null,
+folio int not null,
+num_aciertos int not null,
+constraint id_resultados_pk primary key(id_resultado),
+constraint id_examen_fk foreign key(id_examen) references examen(id_examen),
+constraint id_folio_fk foreign key(folio) references preinscripcion(folio)
+);
 #Creacion de tabla examen en Oracle
 CREATE TABLE EXAMEN (
   ID_EXAMEN INT NOT NULL 
