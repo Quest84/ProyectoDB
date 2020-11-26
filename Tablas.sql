@@ -117,6 +117,7 @@ constraint id_resultados_pk primary key(id_resultado),
 constraint id_examen_fk foreign key(id_examen) references examen(id_examen),
 constraint id_folio_fk foreign key(folio) references preinscripcion(folio)
 );
+
 #Creacion de tabla examen en Oracle
 CREATE TABLE EXAMEN (
   ID_EXAMEN INT NOT NULL 
@@ -149,8 +150,8 @@ CREATE TABLE Pagos(
 	TipoPago varchar(30) NOT NULL,
 	Cantidad int NOT NULL,
 	CONSTRAINT pk_pago PRIMARY KEY (id_pago)
+	ON DELETE CASCADE
 );
-<<<<<<< HEAD
 
 
 # Tabla CargaAcademica
@@ -158,7 +159,9 @@ CREATE TABLE CargaAcademica(
 	id_cargaAcad int NOT NULL,
 	num_control	varchar(13),
 	CONSTRAINT pk_carga PRIMARY KEY (id_cargaAcad),
-	CONSTRAINT fk_control_carga FOREIGN KEY (num_control) REFERENCES 
+	CONSTRAINT fk_control_carga FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
+	PRIMARY KEY (id_cargaAcad, num_control)
+	ON DELETE CASCADE
 );
 
 # Tabla MateriasCarga
@@ -168,6 +171,7 @@ CREATE TABLE Materias_Carga(
 	CONSTRAINT fk_carga_materia FOREIGN KEY (id_cargaAcad) REFERENCES CargaAcademica (id_cargaAcad),
 	CONSTRAINT fk_materia_carga FOREIGN KEY (clave_materia) REFERENCES Materias(clave_materia),
 	PRIMARY KEY(id_cargaAcad, clave_materia)
+	ON DELETE CASCADE
 );
 
 # Tabla Inscripciones
@@ -187,6 +191,7 @@ CREATE TABLE Inscripcione_Pago(
 	CONSTRAINT fk_insc_pago FOREIGN KEY (id_inscripcion) REFERENCES Inscripciones (id_inscripcion),
 	CONSTRAINT fk_pago_insc FOREIGN KEY (id_pago) REFERENCES Pagos (id_pago),
 	PRIMARY KEY(id_inscripcion, id_pago)
+	ON DELETE CASCADE
 
 );
 
@@ -202,7 +207,8 @@ CREATE TABLE Inscripcione_Pago(
 	horas_teoricas int, 
 	CONSTRAINT materias_pk PRIMARY KEY (clave_materia), 
 	CONSTRAINT materias_fk1 FOREIGN KEY(id_docente) REFERENCES docente(id_docente) ON DELETE CASCADE 
-	CONSTRAINT materias_fk2 FOREIGN KEY (id_semestre) REFERENCES semestre (id_semestre)  ON DELETE CASCADE ); 
+	CONSTRAINT materias_fk2 FOREIGN KEY (id_semestre) REFERENCES semestre (id_semestre)  ON DELETE CASCADE 
+); 
 	
 #Tabla carreras
 CREATE TABLE carreras ( 
