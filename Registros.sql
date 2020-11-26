@@ -97,6 +97,13 @@ INSERT INTO calificaciones VALUES ('2018150480947','----',70,);
 INSERT INTO calificaciones VALUES ('2018150480930','----',65,);
 INSERT INTO calificaciones VALUES ('2018150480974','----',93,);
 INSERT INTO calificaciones VALUES ('2018150480985','----',69,);
+#Insercion tabla opcion			    
+ INSERT INTO opcion VALUES(1111,1,'Primera Oportunidad-Primera-opcion','Primera Oportunidad');
+ INSERT INTO opcion VALUES(1112,2,'Primera Oportunidad-Segunda-opcion','Primera Oportunidad');
+ INSERT INTO opcion VALUES(1113,1,'Recurse-Primera-opcion','Recurse');
+ INSERT INTO opcion VALUES(1114,2,'Recurse-Segunda-opcion','Recurse');
+ INSERT INTO opcion VALUES(1115,1,'Especial-Primera-opcion','Especial');
+ INSERT INTO opcion VALUES(1116,2,'Especial-Segunda-opcion','Especial')	;		    
 #Insercion de datos en la tabla preinscripcion                                                
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55001, '//', pendiente, pendiente, pendiente, pendiente, imagen1.jpg, 'CBT Lic. MArio Colín Sánchez', 'Atlacomulco', '92-95');
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55002, '//', pendiente, pendiente, pendiente, pendiente, imagen2.jpg, 'Escuela Preparatoria Oficial N.56', 'Jocotitlan', '88-91');
@@ -130,47 +137,46 @@ INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, ca
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55030, '//', pendiente, pendiente, pendiente, pendiente, imagen30.jpg, 'Colegio Mexiquense de Educación Técnica Plantel Ixtlahuaca', 'Ixtlahuaca', '94-97');
 
 #Incercion en tabla constancias
-insert into constancia values(8500,'02/02/2020','2018150480052',9600);
-insert into constancia values(8501,'09/01/2020','2018150480053',9600);
-insert into constancia values(8502,'19/11/2020','2018150480054',9600);
-insert into constancia values(8503,'22/09/2020','2018150480055',9600);
-insert into constancia values(8504,'25/06/2020','2018150480056',9600);
-insert into constancia values(8505,'06/04/2020','2018150480057',9601);
-insert into constancia values(8506,'16/03/2020','2018150480058',9601);
-insert into constancia values(8507,'30/10/2020','2018150480059',9601);
-insert into constancia values(8508,'25/07/2020','2018150480060',9601);
-insert into constancia values(8509,'02/08/2020','2018150480061',9601);
+insert into constancia values(8500,'02/02/2020','2018150480052',9600,13000);
+insert into constancia values(8501,'09/01/2020','2018150480053',9600,13001);
+insert into constancia values(8502,'19/11/2020','2018150480054',9600,13002);
+insert into constancia values(8503,'22/09/2020','2018150480055',9600,13003);
+insert into constancia values(8504,'25/06/2020','2018150480056',9600,13004);
+insert into constancia values(8505,'06/04/2020','2018150480057',9601,13005);
+insert into constancia values(8506,'16/03/2020','2018150480058',9601,13006);
+insert into constancia values(8507,'30/10/2020','2018150480059',9601,13007);
+insert into constancia values(8508,'25/07/2020','2018150480060',9601,13008);
+insert into constancia values(8509,'02/08/2020','2018150480061',9601,13009);
 
-insert into constancia values(8510,'23/02/2020','2018150480195',9602);
-insert into constancia values(8511,'11/04/2020','2018150480034',9602);
-insert into constancia values(8512,'05/12/2020','2018150480572',9602);
-insert into constancia values(8513,'10/10/2020','2018150480246',9602);
-insert into constancia values(8514,'15/05/2020','2018150480125',9602);
-insert into constancia values(8515,'21/08/2020','2018150480873',9603);
-insert into constancia values(8516,'03/04/2020','2018150480164',9603);
-insert into constancia values(8517,'26/06/2020','2018150480073',9603);
-insert into constancia values(8518,'09/07/2020','2018150480724',9603);
-insert into constancia values(8519,'13/12/2020','2018150480936',9603);
+insert into constancia values(8510,'23/02/2020','2018150480195',9602,13010);
+insert into constancia values(8511,'11/04/2020','2018150480034',9602,13011);
+insert into constancia values(8512,'05/12/2020','2018150480572',9602,13012);
+insert into constancia values(8513,'10/10/2020','2018150480246',9602,13013);
+insert into constancia values(8514,'15/05/2020','2018150480125',9602,13014);
+insert into constancia values(8515,'21/08/2020','2018150480873',9603,13015);
+insert into constancia values(8516,'03/04/2020','2018150480164',9603,13016);
+insert into constancia values(8517,'26/06/2020','2018150480073',9603,13017);
+insert into constancia values(8518,'09/07/2020','2018150480724',9603,13018);
+insert into constancia values(8519,'13/12/2020','2018150480936',9603,13019);
 
-insert into constancia values(8520,'07/10/2020','2018150480900',9604);
-insert into constancia values(8521,'14/03/2020','2018150480915',9604);
-insert into constancia values(8522,'01/08/2020','2018150480945',9604);
-insert into constancia values(8523,'27/06/2020','2018150480975',9604);
-insert into constancia values(8524,'12/05/2020','2018150480969',9604);
-insert into constancia values(8525,'13/11/2020','2018150480900',9605);
-insert into constancia values(8526,'05/02/2020','2018150480915',9605);
-insert into constancia values(8527,'18/12/2020','2018150480945',9605);
-insert into constancia values(8528,'01/09/2020','2018150480975',9605);
-insert into constancia values(8529,'17/01/2020','2018150480969',9605);     
+insert into constancia values(8520,'07/10/2020','2018150480900',9604,13020);
+insert into constancia values(8521,'14/03/2020','2018150480915',9604,13021);
+insert into constancia values(8522,'01/08/2020','2018150480945',9604,13022);
+insert into constancia values(8523,'27/06/2020','2018150480975',9604,13023);
+insert into constancia values(8524,'12/05/2020','2018150480969',9604,13024);
+insert into constancia values(8525,'13/11/2020','2018150480900',9605,13025);
+insert into constancia values(8526,'05/02/2020','2018150480915',9605,13026);
+insert into constancia values(8527,'18/12/2020','2018150480945',9605,13027);
+insert into constancia values(8528,'01/09/2020','2018150480975',9605,13028);
+insert into constancia values(8529,'17/01/2020','2018150480969',9605,13029);    
  #Incercion tabla tipo
-insert into tipo values(9600,'Constancia de estudios',							id_pago);
-insert into tipo values(9601,'Constancia de estudios con promedio general',				id_pago);
-insert into tipo values(9602,'Constancia de estudios con promedio del semestre inmediato anterior',	id_pago);
-insert into tipo values(9603,'Constancia de estudios con calificaciones del semestre inmediato anterior',id_pago);
-insert into tipo values(9604,'Historial Académico (Kardex),						'id_pago);
-insert into tipo values(9605,'Boleta',									id_pago);
-
-                          
+insert into tipo values(9600,'Constancia de estudios','Especifica el semestre y carrera actualmente cursada');
+insert into tipo values(9601,'Constancia de estudios con promedio general','Especifica el promedio de todos los semestres cursados');
+insert into tipo values(9602,'Constancia de estudios con promedio del semestre inmediato anterior','Especifica el promerio del semestre anterior');
+insert into tipo values(9603,'Constancia de estudios con calificaciones del semestre inmediato anterior','Especifica las calificaciones por materia del semestre anterior');
+insert into tipo values(9604,'Historial Académico (Kardex)','Especifica las calificaciones de las materias de todos los semestres anteriores');
+insert into tipo values(9605,'Boleta','Especifica las calificaicones por unidad de las materias del semestre terminado');
+                        
  #insersion de datos en tabla grupo EN ORACLE       
 INSERT INTO GRUPO VALUES (101,'A','LZ-301',PENDIENTE);
 INSERT INTO GRUPO VALUES (102,'A','LZ-302',PENDIENTE);
@@ -250,6 +256,62 @@ INSERT INTO PAGOS VALUES (11005, '970000219016255724543393205', 'Inscripción', 
 INSERT INTO PAGOS VALUES (11006, '970000219016255724543393206', 'Inscripción', 3055);
 INSERT INTO PAGOS VALUES (11007, '970000219016255724543393207', 'Inscripción', 3055);
 
+			    
+			    
+			    
+			    
+			    
+			    
+#Pagos constancias
+INSERT INTO PAGOS VALUES (18000, '970000219016255724543393900', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18001, '970000219016255724543393901', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18002, '970000219016255724543393902', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18003, '970000219016255724543393903', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18004, '970000219016255724543393904', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18005, '970000219016255724543393905', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18006, '970000219016255724543393906', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18007, '970000219016255724543393907', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18008, '970000219016255724543393908', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18009, '970000219016255724543393909', 'Constancia', 40);
+
+
+INSERT INTO PAGOS VALUES (18010, '970000219016255724543393910', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18011, '970000219016255724543393911', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18012, '970000219016255724543393912', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18013, '970000219016255724543393913', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18014, '970000219016255724543393914', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18015, '970000219016255724543393915', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18016, '970000219016255724543393916', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18017, '970000219016255724543393917', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18018, '970000219016255724543393918', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18019, '970000219016255724543393919', 'Constancia', 40);
+
+INSERT INTO PAGOS VALUES (18020, '970000219016255724543393920', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18021, '970000219016255724543393921', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18022, '970000219016255724543393922', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18023, '970000219016255724543393923', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18024, '970000219016255724543393924', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18025, '970000219016255724543393925', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18026, '970000219016255724543393926', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18027, '970000219016255724543393927', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18028, '970000219016255724543393928', 'Constancia', 40);
+INSERT INTO PAGOS VALUES (18029, '970000219016255724543393929', 'Constancia', 40);			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
+			    
 INSERT INTO PAGOS VALUES (12001, '970000219016255724543393300', 'Derecho a Examen', 645);
 
 INSERT INTO PAGOS VALUES (13001, '970000219016255724543393400', 'Inscripción Licenciatura', 3635);

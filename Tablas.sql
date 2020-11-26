@@ -52,15 +52,13 @@ CREATE TABLE persona(
 	ON DELETE CASCADE
 );
 
-
-
-
-# tabla opcion
-CREATE TABLE opcion(
-	num_opcion number,
-	id_opcion int NOT NULL PRIMARY KEY,
-	descripcion varchar(30),
-	ON DELETE CASCADE
+#Tabla opcion
+create table opcion(
+id_opcion int not null, 
+numero opcion int not null,
+descripcion varchar(50) not null, 
+modalidad varchar(20) not null, 
+constraint id_opcion_pk primary key(id_opcion )
 );
 
 
@@ -86,20 +84,39 @@ folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 
 , CONSTRAINT carrera3_FK FOREIGN KEY (carrera_alterna3) REFERENCES carrera (clave_carrera) ON DELETE CASCADE ENABLE
 , CONSTRAINT idpersona_FK FOREIGN KEY (id_persona) REFERENCES persona (id_persona) ON DELETE CASCADE ENABLE);
 #Tabla constancia
-
+create table constancia(
+id_constancia int not null, 
+fecha date,
+num_control varchar(13) not null, 
+id_tipo int not null,
+id_pago int not null,
+constraint id_constancia_pk primary key(id_tipo),
+constraint num_control_fk foreign key(num_control)
+references alumno(num_control),
+constraint id_tipo_fk foreign key(id_tipo)
+references tipo(id_tipo),
+constraint id_pago_fk foreign key(id_pago)
+references pago(id_pago)
+);
 #Tabla tipo para contancias
-
-#Tabla resultados examen
-
-#Tabla opcion
-create table opcion(
-id_opcion int not null, 
-numero opcion int not null,
-descripcion varchar(50) not null, 
-modalidad varchar(20) not null, 
-constraint id_opcion_pk primary key(id_opcion )
+create table tipo(
+id_tipo int not null, 
+nombre varchar(50),
+descripcion varchar(100) ,
+constraint id_tipo_pk primary key(id_tipo)
 );
 
+#Tabla resultados examen
+create table resultados (
+id_resultados int not null,
+resultado varchar(30),
+id_examen int not null,
+folio int not null,
+num_aciertos int not null,
+constraint id_resultados_pk primary key(id_resultado),
+constraint id_examen_fk foreign key(id_examen) references examen(id_examen),
+constraint id_folio_fk foreign key(folio) references preinscripcion(folio)
+);
 #Creacion de tabla examen en Oracle
 CREATE TABLE EXAMEN (
   ID_EXAMEN INT NOT NULL 
@@ -133,6 +150,7 @@ CREATE TABLE Pagos(
 	Cantidad int NOT NULL,
 	CONSTRAINT pk_pago PRIMARY KEY (id_pago)
 );
+<<<<<<< HEAD
 
 
 # Tabla CargaAcademica
@@ -171,3 +189,30 @@ CREATE TABLE Inscripcione_Pago(
 	PRIMARY KEY(id_inscripcion, id_pago)
 
 );
+
+#######################################################################
+ 
+ #Tabla materias
+ CREATE TABLE materias( 
+	clave_materia int NOT NULL, 
+	nombre varchar(30), 
+	unidades int, 
+	creditos int, 
+	horas_practicas int, 
+	horas_teoricas int, 
+	CONSTRAINT materias_pk PRIMARY KEY (clave_materia), 
+	CONSTRAINT materias_fk1 FOREIGN KEY(id_docente) REFERENCES docente(id_docente) ON DELETE CASCADE 
+	CONSTRAINT materias_fk2 FOREIGN KEY (id_semestre) REFERENCES semestre (id_semestre)  ON DELETE CASCADE ); 
+	
+#Tabla carreras
+CREATE TABLE carreras ( 
+	clave_carrera int NOT NULL,  
+	nombre varchar (30),
+	objetivo_general varchar (300),
+	especialidad varchar(100), 
+	perfil_de_egreso varchar (300), 
+	ambito_laboral varchar(260), 
+	id_escuela int, 
+	CONSTRAINT carreras_pk PRIMARY KEY (clave_carrera), 
+	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES escuela (id_descuela) ON DELETE CASCADE );
+
