@@ -265,3 +265,25 @@ ID_EXAMEN INT NOT NULL
     ID_EXAMEN 
   )
 );
+
+
+CREATE TABLE Semestre(
+	id_semestre int NOT NULL,
+	Nombre varchar(30) NOT NULL,
+	Periodo varchar(30) NOT NULL,
+	clave_carrera int NOT NULL,
+	CONSTRAINT fk_carrera_semestre FOREIGN KEY clave_carrera REFERENCES carreras (clave_carrera),
+	CONSTRAINT pk_semestre PRIMARY KEY (id_semestre)
+	ON DELETE CASCADE
+);
+
+
+CREATE TABLE Institucion(
+	id_escuela int NOT NULL,
+	Matricula varchar(30) NOT NULL,
+	Nombre varchar(30) NOT NULL,
+	Ubicacion varchar(30) NOT NULL,
+	Telefono varchar(15) NOT NULL,
+	Correo varchar(30) NOT NULL,
+	CONSTRAINT pk_escuela PRIMARY KEY (id_escuela)
+);
