@@ -222,7 +222,7 @@ CREATE TABLE carreras (
 	especialidad varchar(100), 
 	perfil_de_egreso varchar (300), 
 	ambito_laboral varchar(260), 
-	id_escuela int, 
+	id_escuela int NOT NULL, 
 	CONSTRAINT carreras_pk PRIMARY KEY (clave_carrera), 
 	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES institucion (id_escuela) ON DELETE CASCADE );
 	
