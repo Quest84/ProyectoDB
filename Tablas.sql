@@ -63,16 +63,6 @@ CREATE TABLE opcion(
 	ON DELETE CASCADE
 );
 
-# Tabla Inscripciones
-CREATE TABLE Inscripciones(
-	id_inscripcion int,
-	id_cargaAcad int,
-	num_control varchar(30),
-	PRIMARY KEY (id_inscripcion),
-	CONSTRAINT fk_carga_inscr FOREIGN KEY (id_cargaAcad) REFERENCES CargaAcademica (id_cargaAcad),
-	CONSTRAINT fk_control_inscr FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
-	ON DELETE CASCADE
-);
 
 #Tabla calificaciones
 CREATE TABLE calificaciones(
@@ -85,6 +75,7 @@ CREATE TABLE calificaciones(
 	CONSTRAINT opcion_calificaciones FOREIGN KEY(id_opcion) REFERENCES opcion(id_opcion),
 	
 );
+
 #Tabla preinscripcion
 CREATE TABLE preinscripcion (
 folio INT NOT NULL, fecha DATE, carrera_alterna1 INT NOT NULL, carrera_alterna2 INT NOT NULL, carrera_alterna3 INT NOT NULL
@@ -133,6 +124,7 @@ CONSTRAINT GRUPO_PK PRIMARY KEY (ID_GRUPO)
 );
 
 
+################### MODULO INSCRIPCIONES ####################
 # Tabla Pagos
 CREATE TABLE Pagos(
 	id_pago int NOT NULL,
@@ -140,4 +132,42 @@ CREATE TABLE Pagos(
 	TipoPago varchar(30) NOT NULL,
 	Cantidad int NOT NULL,
 	CONSTRAINT pk_pago PRIMARY KEY (id_pago)
+);
+
+
+# Tabla CargaAcademica
+CREATE TABLE CargaAcademica(
+	id_cargaAcad int NOT NULL,
+	num_control	varchar(13),
+	CONSTRAINT pk_carga PRIMARY KEY (id_cargaAcad),
+	CONSTRAINT fk_control_carga FOREIGN KEY (num_control) REFERENCES 
+);
+
+# Tabla MateriasCarga
+CREATE TABLE Materias_Carga(
+	id_cargaAcad int NOT NULL,
+	clave_materia int NOT NULL,
+	CONSTRAINT fk_carga_materia FOREIGN KEY (id_cargaAcad) REFERENCES CargaAcademica (id_cargaAcad),
+	CONSTRAINT fk_materia_carga FOREIGN KEY (clave_materia) REFERENCES Materias(clave_materia),
+	PRIMARY KEY(id_cargaAcad, clave_materia)
+);
+
+# Tabla Inscripciones
+CREATE TABLE Inscripciones(
+	id_inscripcion int,
+	id_cargaAcad int,
+	num_control varchar(13),
+	PRIMARY KEY (id_inscripcion),
+	CONSTRAINT fk_carga_inscr FOREIGN KEY (id_cargaAcad) REFERENCES CargaAcademica (id_cargaAcad),
+	CONSTRAINT fk_control_inscr FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
+	ON DELETE CASCADE
+);
+
+CREATE TABLE Inscripcione_Pago(
+	id_inscripcion int NOT NULL,
+	id_pago int NOT NULL,
+	CONSTRAINT fk_insc_pago FOREIGN KEY (id_inscripcion) REFERENCES Inscripciones (id_inscripcion),
+	CONSTRAINT fk_pago_insc FOREIGN KEY (id_pago) REFERENCES Pagos (id_pago),
+	PRIMARY KEY(id_inscripcion, id_pago)
+
 );
