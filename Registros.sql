@@ -135,7 +135,39 @@ INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, ca
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55028, '//', pendiente, pendiente, pendiente, pendiente, imagen28.jpg, 'Escuela Preparatoria Químico José Donaciano Morales', 'Ixtlahuaca', '85-88');
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55029, '//', pendiente, pendiente, pendiente, pendiente, imagen29.jpg, 'Preparatoria General No. EPO 172 ', 'Temoaya', '71-74');
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55030, '//', pendiente, pendiente, pendiente, pendiente, imagen30.jpg, 'Colegio Mexiquense de Educación Técnica Plantel Ixtlahuaca', 'Ixtlahuaca', '94-97');
+#Insercion resultados examen
+INSERT INTO Resultado VALUES (	1000001,	'APROVADO'	,1000,	55001,	90);
+INSERT INTO Resultado VALUES (	1000002,	'RECHAZADO'	,1001,	55002,	40);
+INSERT INTO Resultado VALUES (	1000003,	'RECHAZADO'	,1002,	55003,	22);
+INSERT INTO Resultado VALUES (	1000004,	'APROVADO'	,1003,	55004,	110);
+INSERT INTO Resultado VALUES (	1000005,	'RECHAZADO'	,1004,	55005,	24);
+INSERT INTO Resultado VALUES (	1000006,	'RECHAZADO'	,1005,	55006,	78);
+INSERT INTO Resultado VALUES (	1000007,	'RECHAZADO'	,1006,	55007,	10);
+INSERT INTO Resultado VALUES (	1000008,	'APROVADO'	,1007,	55008,	85);
+INSERT INTO Resultado VALUES (	1000009,	'APROVADO'	,1008,	55009,	89);
+INSERT INTO Resultado VALUES (	1000010,	'RECHAZADO'	,1009,	55010,	36);
+INSERT INTO Resultado VALUES (	1000011,	'APROVADO'	,1010,	55011,	95);
+INSERT INTO Resultado VALUES (	1000012,	'APROVADO'	,1011,	55012,	91);
+INSERT INTO Resultado VALUES (	1000013,	'APROVADO'	,1012,	55013,	120);
+INSERT INTO Resultado VALUES (	1000014,	'APROVADO'	,1013,	55014,	115);
+INSERT INTO Resultado VALUES (	1000015,	'APROVADO'	,1014,	55015,	94);
+INSERT INTO Resultado VALUES (	1000016,	'RECHAZADO'	,1015,	55016,	77);
+INSERT INTO Resultado VALUES (	1000017,	'RECHAZADO'	,1016,	55017,	50);
+INSERT INTO Resultado VALUES (	1000018,	'RECHAZADO'	,1017,	55018,	48);
+INSERT INTO Resultado VALUES (	1000019,	'RECHAZADO'	,1018,	55019,	69);
+INSERT INTO Resultado VALUES (	1000020,	'APROVADO'	,1019,	55020,	87);
+INSERT INTO Resultado VALUES (	1000021,	'RECHAZADO'	,1020,	55021,	73);
+INSERT INTO Resultado VALUES (	1000022,	'RECHAZADO'	,1021,	55022,	79);
+INSERT INTO Resultado VALUES (	1000023,	'APROVADO'	,1022,	55023,	83);
+INSERT INTO Resultado VALUES (	1000024,	'APROVADO'	,1023,	55024,	105);
+INSERT INTO Resultado VALUES (	1000025,	'APROVADO'	,1024,	55025,	109);
+INSERT INTO Resultado VALUES (	1000026,	'APROVADO'	,1025,	55026,	90);
+INSERT INTO Resultado VALUES (	1000027,	'RECHAZADO'	,1026,	55027,	78);
+INSERT INTO Resultado VALUES (	1000028,	'APROVADO'	,1027,	55028,	88);
+INSERT INTO Resultado VALUES (	1000029,	'APROVADO'	,1028,	55029,	87);
+INSERT INTO Resultado VALUES (	1000030,	'RECHAZADO'	,1029,	55030,	57);
 
+			    
 #Incercion en tabla constancias
 insert into constancia values(8500,'02/02/2020','2018150480052',9600,13000);
 insert into constancia values(8501,'09/01/2020','2018150480053',9600,13001);
