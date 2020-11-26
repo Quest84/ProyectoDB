@@ -210,13 +210,13 @@ CREATE TABLE Inscripcione_Pago(
 	horas_practicas int, 
 	horas_teoricas int, 
 	CONSTRAINT materias_pk PRIMARY KEY (clave_materia), 
-	CONSTRAINT materias_fk1 FOREIGN KEY(id_docente) REFERENCES docente(id_docente) ON DELETE CASCADE 
+	CONSTRAINT materias_fk1 FOREIGN KEY(id_docente) REFERENCES docente(id_docente),
 	CONSTRAINT materias_fk2 FOREIGN KEY (id_semestre) REFERENCES semestre (id_semestre)  ON DELETE CASCADE 
 ); 
 	
 #Tabla carreras
 CREATE TABLE carreras ( 
-	clave_carrera int NOT NULL,  
+	clave_carrera varchar(10) NOT NULL,  
 	nombre varchar (30),
 	objetivo_general varchar (300),
 	especialidad varchar(100), 
@@ -224,7 +224,7 @@ CREATE TABLE carreras (
 	ambito_laboral varchar(260), 
 	id_escuela int, 
 	CONSTRAINT carreras_pk PRIMARY KEY (clave_carrera), 
-	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES escuela (id_descuela) ON DELETE CASCADE );
+	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES institucion (id_escuela) ON DELETE CASCADE );
 	
 #Tabla docentes oracle
 
@@ -274,7 +274,7 @@ CREATE TABLE Semestre(
 	id_semestre int NOT NULL,
 	Nombre varchar(30) NOT NULL,
 	Periodo varchar(30) NOT NULL,
-	clave_carrera int NOT NULL,
+	clave_carrera varchar (10) NOT NULL,
 	CONSTRAINT fk_carrera_semestre FOREIGN KEY clave_carrera REFERENCES carreras (clave_carrera),
 	CONSTRAINT pk_semestre PRIMARY KEY (id_semestre)
 	ON DELETE CASCADE
