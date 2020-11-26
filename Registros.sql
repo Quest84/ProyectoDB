@@ -142,44 +142,36 @@ INSERT INTO unidades VALUES('clavemateria-4',4,'Técnicas de conmutación y mult
 INSERT INTO unidades VALUES('clavemateria-5',5,'Modelos y dispositivos de comunicación',---);
                             
 #Insercion de calificaciones 
-INSERT INTO calificaciones VALUES ('2018150480052','----',89,);
-INSERT INTO calificaciones VALUES ('2018150480053','----',78,);
-INSERT INTO calificaciones VALUES ('2018150480054','----',80,);
-INSERT INTO calificaciones VALUES ('2018150480055','----',82,);
-INSERT INTO calificaciones VALUES ('2018150480056','----',90,);
-INSERT INTO calificaciones VALUES ('2018150480057','----',87,);
-INSERT INTO calificaciones VALUES ('2018150480058','----',75,);
-INSERT INTO calificaciones VALUES ('2018150480059','----',74,);
-INSERT INTO calificaciones VALUES ('2018150480060','----',91,);
-INSERT INTO calificaciones VALUES ('2018150480061','----',86,);
+INSERT INTO calificaciones VALUES('2018150480052',-,89,2);
+INSERT INTO calificaciones VALUES('2018150480053',-,78,2);
+INSERT INTO calificaciones VALUES('2018150480054',-,80,1);
+INSERT INTO calificaciones VALUES('2018150480055',-,82,1);
+INSERT INTO calificaciones VALUES('2018150480056',-,90,1);
+INSERT INTO calificaciones VALUES('2018150480057',-,87,2);
+INSERT INTO calificaciones VALUES('2018150480058',-,75,1);
+INSERT INTO calificaciones VALUES('2018150480059',-,74,2);
+INSERT INTO calificaciones VALUES('2018150480060',-,91,1);
+INSERT INTO calificaciones VALUES('2018150480061',-,86,2);
+INSERT INTO calificaciones VALUES('2018150480195',-,89,4);
+INSERT INTO calificaciones VALUES('2018150480034',-,91,5);
+INSERT INTO calificaciones VALUES('2018150480572',-,83,2);
+INSERT INTO calificaciones VALUES('2018150480246',-,84,1);
+INSERT INTO calificaciones VALUES('2018150480125',-,85,4);
+INSERT INTO calificaciones VALUES('2018150480873',-,95,1);
+INSERT INTO calificaciones VALUES('2018150480164',-,75,1);
+INSERT INTO calificaciones VALUES('2018150480073',-,60,2);
+INSERT INTO calificaciones VALUES('2018150480724',-,75,4);
+INSERT INTO calificaciones VALUES('2018150480936',-,96,2);
+INSERT INTO calificaciones VALUES('2018150480900',-,85,3);
+INSERT INTO calificaciones VALUES('2018150480915',-,79,6);
+INSERT INTO calificaciones VALUES('2018150480945',-,81,3);
+INSERT INTO calificaciones VALUES('2018150480975',-,86,1);
+INSERT INTO calificaciones VALUES('2018150480969',-,89,2);
+INSERT INTO calificaciones VALUES('2018150480947',-,70,3);
+INSERT INTO calificaciones VALUES('2018150480930',-,65,2);
+INSERT INTO calificaciones VALUES('2018150480974',-,93,4);
+INSERT INTO calificaciones VALUES('2018150480985',-,69,6);
 
-INSERT INTO calificaciones VALUES('2018150480195','----',89,);
-INSERT INTO calificaciones VALUES('2018150480034','----',91,);
-INSERT INTO calificaciones VALUES('2018150480572','----',83,);
-INSERT INTO calificaciones VALUES('2018150480246','----',84,);
-INSERT INTO calificaciones VALUES('2018150480125','----',85,);
-INSERT INTO calificaciones VALUES('2018150480873','----',95,);
-INSERT INTO calificaciones VALUES('2018150480164','----',75,);
-INSERT INTO calificaciones VALUES('2018150480073','----',60,);
-INSERT INTO calificaciones VALUES('2018150480724','----',75,);
-INSERT INTO calificaciones VALUES('2018150480936','----',96,);
-
-INSERT INTO calificaciones VALUES ('2018150480900','----',85,);
-INSERT INTO calificaciones VALUES ('2018150480915','----',79,);
-INSERT INTO calificaciones VALUES ('2018150480945','----',81,);
-INSERT INTO calificaciones VALUES ('2018150480975','----',86,);
-INSERT INTO calificaciones VALUES ('2018150480969','----',89,);
-INSERT INTO calificaciones VALUES ('2018150480947','----',70,);
-INSERT INTO calificaciones VALUES ('2018150480930','----',65,);
-INSERT INTO calificaciones VALUES ('2018150480974','----',93,);
-INSERT INTO calificaciones VALUES ('2018150480985','----',69,);
-#Insercion tabla opcion			    
- INSERT INTO opcion VALUES(1111,1,'Primera Oportunidad-Primera-opcion','Primera Oportunidad');
- INSERT INTO opcion VALUES(1112,2,'Primera Oportunidad-Segunda-opcion','Primera Oportunidad');
- INSERT INTO opcion VALUES(1113,1,'Recurse-Primera-opcion','Recurse');
- INSERT INTO opcion VALUES(1114,2,'Recurse-Segunda-opcion','Recurse');
- INSERT INTO opcion VALUES(1115,1,'Especial-Primera-opcion','Especial');
- INSERT INTO opcion VALUES(1116,2,'Especial-Segunda-opcion','Especial')	;
 			    
 #Insercion de datos en la tabla preinscripcion                                                
 INSERT INTO preinscripcion (folio, fecha, carrera_alterna1, carrera_alterna2, carrera_alterna3, id_persona, fotografia, escuela_procedencia, municipio_escuela, promedio) VALUES (55001, '//', pendiente, pendiente, pendiente, 01, imagen1.jpg, 'CBT Lic. MArio Colín Sánchez', 'Atlacomulco', '92-95');
