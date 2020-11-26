@@ -30,7 +30,7 @@ INSERT INTO persona VALUES(28,'Carla','Mendoza','Ortiz','MEOC011015MPNOBBI7','F'
 INSERT INTO persona VALUES(29,'Samuel','Florencio','Veltran','FLVS001116QZWXEEC8','M','Estado de Mexico',5544220011,'sfveltran@hotmail.com','50740','Ixtlahuaca','Santa Maria','Venustiano','Avenida Principal');
 INSERT INTO persona VALUES(30,'Samantha','Nava','Ayala','NAAS001217ALSKJJD9','F','Estado de Mexico',7121036987,'snayala@gmail.com','50740','Ixtlahuca','San Juan','Barrio Lindo','Avenida Principal');
 
-#Docentes
+#Docentes 
 INSERT INTO persona VALUES(31,'Teresa','Plata','Hernandez','PLHT900101QWXZSSD1','F','Estado de Mexico',7121893857,'tphernandez@gmail.com','50727','Jocotitlan','Los Reyes','Buenavista','Av. 20 de noviembre');
 INSERT INTO persona VALUES(32,'Erika','Cortez','Nazar','CONE890202JHKGFFN2','F','Estado de Mexico',7122123618,'ecnazar@gmail.com','5798','concepcion de los baños','San pedro de los baños','Mavoro','calle 32-c');
 INSERT INTO persona VALUES(33,'Juan','Olmedo','Lopez','OLLJ880303VFGBTTR3','M','Estado de Mexico',7223456894,'jcapolo@gmail.com','50600','Ixtlahuaca','san lorenzo toxico','manzana 8');
