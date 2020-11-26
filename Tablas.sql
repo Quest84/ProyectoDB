@@ -161,10 +161,13 @@ CREATE TABLE Pagos(
 # Tabla CargaAcademica
 CREATE TABLE CargaAcademica(
 	id_cargaAcad int NOT NULL,
-	num_control	varchar(13),
+	num_control	int NOT NULL,
+	id_grupo int NOT NULL,
+	id_semestre int NOT NULL,
 	CONSTRAINT pk_carga PRIMARY KEY (id_cargaAcad),
 	CONSTRAINT fk_control_carga FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
-	PRIMARY KEY (id_cargaAcad, num_control)
+	CONSTRAINT fk_grupo_carga FOREIGN KEY (id_grupo) REFERENCES grupo (id_grupo),
+	CONSTRAINT fk_semestre_carga FOREIGN KEY (id_semestre) REFERENCES Semestre(id_semestre)
 	ON DELETE CASCADE
 );
 
@@ -182,10 +185,8 @@ CREATE TABLE Materias_Carga(
 CREATE TABLE Inscripciones(
 	id_inscripcion int,
 	id_cargaAcad int,
-	num_control varchar(13),
 	PRIMARY KEY (id_inscripcion),
 	CONSTRAINT fk_carga_inscr FOREIGN KEY (id_cargaAcad) REFERENCES CargaAcademica (id_cargaAcad),
-	CONSTRAINT fk_control_inscr FOREIGN KEY (num_control) REFERENCES alumnos (num_control),
 	ON DELETE CASCADE
 );
 
