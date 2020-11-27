@@ -175,6 +175,7 @@ CREATE TABLE EXAMEN (
 , ID_PAGO INT 
 , NUM_FOLIO_PRE INT 
 , CONSTRAINT EXAMEN_PK PRIMARY KEY 
+,constraint fk_id_pago foreign key (id_pago) references pagos(id_pago)
   (
     ID_EXAMEN 
   )
