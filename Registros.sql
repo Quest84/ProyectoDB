@@ -273,12 +273,12 @@ insert into constancia values(8527,'18/12/2020','2018150480945',9605,13027);
 insert into constancia values(8528,'01/09/2020','2018150480975',9605,13028);
 insert into constancia values(8529,'17/01/2020','2018150480969',9605,13029);    
  #Incercion tabla tipo
-insert into tipo values(9600,'Constancia de estudios','Especifica el semestre y carrera actualmente cursada');
-insert into tipo values(9601,'Constancia de estudios con promedio general','Especifica el promedio de todos los semestres cursados');
-insert into tipo values(9602,'Constancia de estudios con promedio del semestre inmediato anterior','Especifica el promerio del semestre anterior');
-insert into tipo values(9603,'Constancia de estudios con calificaciones del semestre inmediato anterior','Especifica las calificaciones por materia del semestre anterior');
-insert into tipo values(9604,'Historial Académico (Kardex)','Especifica las calificaciones de las materias de todos los semestres anteriores');
-insert into tipo values(9605,'Boleta','Especifica las calificaicones por unidad de las materias del semestre terminado');
+insert into tipo values(9600,'Constancia de estudios','Especifica el semestre y carrera actualmente cursada',40);
+insert into tipo values(9601,'Constancia de estudios con promedio general','Especifica el promedio de todos los semestres cursados',40);
+insert into tipo values(9602,'Constancia de estudios con promedio del semestre inmediato anterior','Especifica el promerio del semestre anterior',40);
+insert into tipo values(9603,'Constancia de estudios con calificaciones del semestre inmediato anterior','Especifica las calificaciones por materia del semestre anterior',40);
+insert into tipo values(9604,'Historial Académico (Kardex)','Especifica las calificaciones de las materias de todos los semestres anteriores',40);
+insert into tipo values(9605,'Boleta','Especifica las calificaicones por unidad de las materias del semestre terminado',40);
 # Registros tipo_certificado
 INSERT INTO tipo VALUES(9606,'CERTIFICADO DE ESTUDIOS TOTAL','Documento de calificaciones certifacada',821);
 INSERT INTO tipo VALUES(9607,'CERTIFICADO DE ESTUDIOS PARCIAL','Documento de calificaciones certifacada',409);
