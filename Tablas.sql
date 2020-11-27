@@ -207,7 +207,7 @@ fecha varchar(10),
 num_control varchar(13) not null, 
 id_tipo int not null,
 id_pago int not null,
-constraint id_constancia_pk primary key(id_tipo),
+constraint id_constancia_pk primary key(id_constancia),
 constraint num_control_fk foreign key(num_control)
 references alumnos(num_control)ON DELETE CASCADE,
 constraint id_tipo_fk foreign key(id_tipo)references tipo(id_tipo) ON DELETE CASCADE ,
