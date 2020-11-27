@@ -1,3 +1,35 @@
+#Tabla Institucion
+CREATE TABLE Institucion(
+	id_escuela int NOT NULL,
+	Matricula varchar(30) NOT NULL,
+	Nombre varchar(30) NOT NULL,
+	Ubicacion varchar(30) NOT NULL,
+	Telefono varchar(15) NOT NULL,
+	Correo varchar(30) NOT NULL,
+	CONSTRAINT pk_escuela PRIMARY KEY (id_escuela)
+);
+#Tabla carreras
+CREATE TABLE carreras ( 
+	clave_carrera varchar(10) NOT NULL,  
+	nombre varchar (30),
+	objetivo_general varchar (300),
+	especialidad varchar(100), 
+	perfil_de_egreso varchar (300), 
+	ambito_laboral varchar(260), 
+	id_escuela int NOT NULL, 
+	CONSTRAINT carreras_pk PRIMARY KEY (clave_carrera), 
+	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES institucion (id_escuela) ON DELETE CASCADE ENABLE  );
+#Tabla semestre
+CREATE TABLE Semestre(
+	id_semestre int NOT NULL,
+	Nombre varchar(30) NOT NULL,
+	Periodo varchar(30) NOT NULL,
+	clave_carrera varchar (10) NOT NULL,
+	CONSTRAINT fk_carrera_semestre FOREIGN KEY clave_carrera REFERENCES carreras (clave_carrera),
+	CONSTRAINT pk_semestre PRIMARY KEY (id_semestre)
+	ON DELETE CASCADE
+);
+
 # tabla tipo certificado
 /*CREATE TABLE tipo_certificado(
 	id_tipo varchar(2) NOT NULL PRIMARY KEY,
@@ -218,17 +250,7 @@ CREATE TABLE Inscripcione_Pago(
 	CONSTRAINT materias_fk2 FOREIGN KEY (id_semestre) REFERENCES semestre (id_semestre)  ON DELETE CASCADE 
 ); 
 	
-#Tabla carreras
-CREATE TABLE carreras ( 
-	clave_carrera varchar(10) NOT NULL,  
-	nombre varchar (30),
-	objetivo_general varchar (300),
-	especialidad varchar(100), 
-	perfil_de_egreso varchar (300), 
-	ambito_laboral varchar(260), 
-	id_escuela int NOT NULL, 
-	CONSTRAINT carreras_pk PRIMARY KEY (clave_carrera), 
-	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES institucion (id_escuela) ON DELETE CASCADE ENABLE  );
+
 	
 #Tabla docentes oracle
 
@@ -242,26 +264,9 @@ CONSTRAINT DOCENTE_PK PRIMARY KEY (ID_PERSONA)
 );
 
 
-CREATE TABLE Semestre(
-	id_semestre int NOT NULL,
-	Nombre varchar(30) NOT NULL,
-	Periodo varchar(30) NOT NULL,
-	clave_carrera varchar (10) NOT NULL,
-	CONSTRAINT fk_carrera_semestre FOREIGN KEY clave_carrera REFERENCES carreras (clave_carrera),
-	CONSTRAINT pk_semestre PRIMARY KEY (id_semestre)
-	ON DELETE CASCADE
-);
 
 
-CREATE TABLE Institucion(
-	id_escuela int NOT NULL,
-	Matricula varchar(30) NOT NULL,
-	Nombre varchar(30) NOT NULL,
-	Ubicacion varchar(30) NOT NULL,
-	Telefono varchar(15) NOT NULL,
-	Correo varchar(30) NOT NULL,
-	CONSTRAINT pk_escuela PRIMARY KEY (id_escuela)
-);
+
 	
 	
 	CREATE TABLE PAGO (
