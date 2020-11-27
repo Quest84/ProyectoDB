@@ -77,3 +77,38 @@ CREATE TABLE Inscripciones(
 );
 
 # Test mySQL
+
+
+#tabla docente en MySQL
+create table Docente (
+Id_docente int not null auto_increment,
+Cedula varchar(20) not null,
+Grado_academico varchar(30) not null,
+Especialidad varchar(30) not null,
+Num_seguro_social varchar(11) not null,
+Id_persona int not null,
+primary key (Id_docente)
+);
+
+#TABLA GRUPO EN MySQL
+CREATE TABLE `grupo` (
+ `Id_Grupo` int NOT NULL AUTO_INCREMENT,
+  `Edificio` varchar(20) NOT NULL,
+  `Num_Grupo` varchar(10) NOT NULL,
+  PRIMARY KEY (`Id_Grupo`)
+	
+#TABLA EXAMEN EN MySQL
+	create table examen(
+ID_EXAMEN INT NOT NULL 
+, HORARIO time 
+, FECHA DATE 
+, LUGAR_APLICACION VARCHAR(30) 
+, ID_PAGO INT 
+, NUM_FOLIO_PRE INT 
+, CONSTRAINT EXAMEN_PK PRIMARY KEY 
+  (
+    ID_EXAMEN 
+  )
+);
+
+
