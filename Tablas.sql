@@ -194,8 +194,8 @@ CREATE TABLE inscripciones_pago(
 /*Tabla tipo*/
 create table tipo(
 id_tipo int not null,
-nombre varchar(50),
-descripcion varchar(100) ,
+nombre varchar(100),
+descripcion varchar(150),
 precio int,
 constraint id_tipo_pk primary key(id_tipo)
 );
