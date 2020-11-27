@@ -42,27 +42,29 @@ ON UPDATE CASCADE
 
 # tabla persona
 CREATE TABLE persona(
-	id_persona varchar(20) NOT NULL PRIMARY KEY,
+	id_persona int NOT NULL,
 	nombre varchar(30),
 	apellido_paterno varchar(40),
 	apellido_materno varchar(40),
+	curp varchar(18),
 	sexo char,
-	telefono number(10),
+	estado varchar(50) DEFAULT 'Estado de México' NOT NULL,
+	telefono long,
 	correo varchar(13),
 	codigo_postal varchar(5),
 	municipio varchar(50),
-	locaidad varchar(50),
+	localidad varchar(50),
 	colonia varchar(50),
 	calle varchar(50),
-	ON DELETE CASCADE
+	CONSTRAINT pk_id_persona PRIMARY KEY(id_persona)
 );
 
 # tabla opcion
 CREATE TABLE opcion(
-	num_opcion int,
-	id_opcion int NOT NULL PRIMARY KEY,
-	descripcion varchar(30),
-	ON DELETE CASCADE
+	id_opcion int not null, 
+	nombre_opcion varchar(50) not null,
+	descripcion varchar(50) not null, 
+	CONSTRAINT id_opcion_pk primary key(id_opcion)
 );
 
 # Tabla Inscripciones
