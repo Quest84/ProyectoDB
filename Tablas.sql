@@ -2,7 +2,7 @@
 CREATE TABLE institucion(
 	id_escuela int NOT NULL,
 	matricula varchar(30) NOT NULL,
-	nombre varchar(30) NOT NULL,
+	nombre varchar(100) NOT NULL,
 	ubicacion varchar(30) NOT NULL,
 	telefono varchar(15) NOT NULL,
 	correo varchar(30) NOT NULL,
@@ -11,11 +11,11 @@ CREATE TABLE institucion(
 #Tabla carreras
 CREATE TABLE carreras ( 
 	clave_carrera varchar(10) NOT NULL,  
-	nombre varchar (30),
-	objetivo_general varchar (300),
+	nombre varchar (100),
+	objetivo_general varchar (500),
 	especialidad varchar(100), 
-	perfil_de_egreso varchar (300), 
-	ambito_laboral varchar(260), 
+	perfil_de_egreso varchar (500), 
+	ambito_laboral varchar(500), 
 	id_escuela int NOT NULL, 
 	CONSTRAINT carreras_pk PRIMARY KEY (clave_carrera), 
 	CONSTRAINT carreras_fk1 FOREIGN KEY(id_escuela) REFERENCES institucion (id_escuela) ON DELETE CASCADE );
