@@ -1,7 +1,7 @@
-INSERT INTO institucion VALUES (10101, 'Tecnológico de Estudios Superiores de Jocotitlán', 'Jocotitlán', '5564334568', 'tesjo@gmail.com');
-INSERT INTO institucion VALUES (10110, 'Tecnológico de Estudios Superiores de Jilotepec', 'Jilotepec', '5564334561', 'tesji@gmail.com');
-INSERT INTO institucion VALUES (10111, 'Tecnológico de Estudios Superiores de Toluca', 'Toluca', '5564334562', 'testo@gmail.com');
-INSERT INTO institucion VALUES (11000, 'Tecnológico de Estudios Superiores de San Felipe del Progreso', 'San Felipe del Progreso', '5564334564', 'tesfe@gmail.com');
+INSERT INTO institucion VALUES (10101,'453452312212323', 'Tecnológico de Estudios Superiores de Jocotitlán', 'Jocotitlán', '5564334568', 'tesjo@gmail.com');
+INSERT INTO institucion VALUES (10110,'157T23423MN3223', 'Tecnológico de Estudios Superiores de Jilotepec', 'Jilotepec', '5564334561', 'tesji@gmail.com');
+INSERT INTO institucion VALUES (10111,'893481023F52J32','Tecnológico de Estudios Superiores de Toluca', 'Toluca', '5564334562', 'testo@gmail.com');
+INSERT INTO institucion VALUES (11000,'TESSFP342345235', 'Tecnológico de Estudios Superiores de San Felipe del Progreso', 'San Felipe del Progreso', '5564334564', 'tesfe@gmail.com');
 
 
 INSERT INTO carreras VALUES ('IGE001','INGENIERIA EN GESTION EMPRESARIAL','Formar integralmente profesionales que contribuyan a la gestión de empresas e innovación de procesos; así como al diseño, implementación y desarrollo de sistemas estratégicos de negocios',
