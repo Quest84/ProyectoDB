@@ -128,7 +128,7 @@ CREATE TABLE calificaciones(
 
 /*Tabla preincripcion*/
 CREATE TABLE preinscripcion (
-folio INT NOT NULL, fecha DATE, carrera_alterna1 varchar(10) NOT NULL, carrera_alterna2 varchar(10) NOT NULL, carrera_alterna3 varchar(10) NOT NULL,
+folio INT NOT NULL, fecha varchar(10), carrera_alterna1 varchar(10) NOT NULL, carrera_alterna2 varchar(10) NOT NULL, carrera_alterna3 varchar(10) NOT NULL,
 id_persona INT NOT NULL, fotografia VARCHAR(20), escuela_procedencia VARCHAR(100), municipio_escuela VARCHAR(100), promedio VARCHAR(10),
 CONSTRAINT folio_PK PRIMARY KEY (folio) ,
 CONSTRAINT carrera1_FK FOREIGN KEY (carrera_alterna1) REFERENCES carreras (clave_carrera) ON DELETE CASCADE ,
@@ -139,7 +139,7 @@ CONSTRAINT idpersona_FK FOREIGN KEY (id_persona) REFERENCES persona (id_persona)
 CREATE TABLE examen (
 id_examen INT NOT NULL 
 , horario VARCHAR(5)
-, fecha DATE 
+, fecha varchar(10) 
 , lugar_aplicacion VARCHAR(30) 
 , id_pago INT 
 , folio INT 
