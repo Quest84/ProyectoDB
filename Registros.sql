@@ -1,17 +1,16 @@
-#Alumnos
 INSERT INTO persona VALUES(01,'Jaime','Balderas','Jimenez','BAJJ000322HMCLMMA1','M','Estado de Mexico',7122196489,'jbjimenez@gmail.com','50783','Ixtlahuaca','San Antonio Bonixi','Melchor Ocampo','Avenida Principal');
-INSERT INTO persona VALUES(02,'Beatriz','Mendoza','Ocampo','MEOB991221FMUDBUC2','F','Estado de Mexico',5544477788,'bmocampo@hotmail.com','50740','Ixtlahuaca','San Francisco','Gustavo Baz',’Avenida Principal’);
-INSERT INTO persona VALUES(03,'Lorena','Garza','Sisneros','GASL980902JDNGMMQ3','F','Estado de Mexico',7122165544,'lgsisneros@gmail.com','50740','Ixtlahuca','Morelos','Adolfo Lopez',’Avenida Principal’);
-INSERT INTO persona VALUES(04,'Alejandro','Paez','Salinas','PASA971003OEJVNMQ4','M','Queretaro',5559632147,'apsalinas@hotmail.com','50740','Ixtlahuaca','San Pedro','Venustiano',’Avenida principal’);
+INSERT INTO persona VALUES(02,'Beatriz','Mendoza','Ocampo','MEOB991221FMUDBUC2','F','Estado de Mexico',5544477788,'bmocampo@hotmail.com','50740','Ixtlahuaca','San Francisco','Gustavo Baz','Avenida Principal');
+INSERT INTO persona VALUES(03,'Lorena','Garza','Sisneros','GASL980902JDNGMMQ3','F','Estado de Mexico',7122165544,'lgsisneros@gmail.com','50740','Ixtlahuca','Morelos','Adolfo Lopez','Avenida Principal');
+INSERT INTO persona VALUES(04,'Alejandro','Paez','Salinas','PASA971003OEJVNMQ4','M','Queretaro',5559632147,'apsalinas@hotmail.com','50740','Ixtlahuaca','San Pedro','Venustiano','Avenida principal');
 INSERT INTO persona VALUES(05,'Sandra','Reyes','Sanchez','RESS961104GBVMSSV5','F','Estado de Mexico',5596354782,'srsanchez@gmail.com','50740','Intlaguaca','Barri de los Perales','Carranza','Avenida Principal');
-INSERT INTO persona VALUES(06,'Arturo','Gonzales','Sanchez','GOSA951205YRHCGLL6','M','Estado de Mexico',71248963214,'agsanchez@hotmail.com','50740','Ixtlahuaca','San Pedro','Frida Kahlo','Avenida Principal');	
-INSERT INTO persona VALUES(07,'Martha','Beatriz','Martinez','BEMM940106GHJKLLÑ7','F','Estado de Mexico',5545789632,'mbmartinez@gmail.com','50740','Ixtlahuaca','San Bartolo','Emiliano','Avenida Principal');
+INSERT INTO persona VALUES(06,'Arturo','Gonzales','Sanchez','GOSA951205YRHCGLL6','M','Estado de Mexico',7124896321,'agsanchez@hotmail.com','50740','Ixtlahuaca','San Pedro','Frida Kahlo','Avenida Principal');	
+INSERT INTO persona VALUES(07,'Martha','Beatriz','Martinez','BEMM940106GHJKLLE7','F','Estado de Mexico',5545789632,'mbmartinez@gmail.com','50740','Ixtlahuaca','San Bartolo','Emiliano','Avenida Principal');
 INSERT INTO persona VALUES(08,'Jonathan','Gonzalez','Gutierrez','GOGJ930207QWERTTY8','M','Estado de Mexico',5536987412,'jggutierrez@gmail.com','50740','Ixtlahuaca','Santa Cruz','Rayon','Avenida Principal');
-INSERT INTO persona VALUES(09,'Gustavo','Salinas','Salinas','SASG920308ASDFGGH9','M','Michoacan',7122369854,'50740','gssalinas@gmail.com','50740','Ixtlaguaca','Atlacomulco','Loma','Avenida Principal');
-INSERT INTO persona VALUES(10,'Carla','Florencio','Lopez','FLLC910409ZXCVBBN0','F','Estado de Mexico',554123658951,'cflopez@hotmail.com','50740','Ixtlahuca','San Juan','Obregón','Avenida Principal');
+INSERT INTO persona VALUES(09,'Gustavo','Salinas','Salinas','SASG920308ASDFGGH9','M','Michoacan',7122369854,'gssalinas@gmail.com','50740','Ixtlahuaca','Atlacomulco','Loma','Avenida Principal');
+INSERT INTO persona VALUES(10,'Carla','Florencio','Lopez','FLLC910409ZXCVBBN0','F','Estado de Mexico',5541236585,'cflopez@hotmail.com','50740','Ixtlahuca','San Juan','Obregón','Avenida Principal');
 INSERT INTO persona VALUES(11,'Leticia','Cruz','Meliton','CRML900510MNBVCCX1','F','Estado de Mexico',7122145896,'lcmeliton@hotmail.com','50740','Ixtlahuaca','Jiquipilco','Amargura','Avenida Principal');
 INSERT INTO persona VALUES(12,'Lorenzo','Marcelo','Gutierrez','MAGL010611POIUYYT2','M','Estado de Mexico',55444888,'lmgutierrez@hotmail.com','50740','Ixtlahuaca','Zapata','Loma de Bezares','Avenida Principal');
-INSERT INTO persona VALUES(13,'Francisco','Gonzales','Gonzales','GOGF0200712BHGNKWWQ3','M','Estado de Mexico',7121458963,'fggonzales@hotmail.com','50740','Ixtlahuaca','Santa Maria','Barranca del Muerto','Avenida Principal');
+INSERT INTO persona VALUES(13,'Francisco','Gonzales','Gonzales','GOGF020712BHGKWWQ3','M','Estado de Mexico',7121458963,'fggonzales@hotmail.com','50740','Ixtlahuaca','Santa Maria','Barranca del Muerto','Avenida Principal');
 INSERT INTO persona VALUES(14,'Silvia','Martinez','Bernardino','MABS010801DGBCHH4','F','Sinaloa',5544412368,'smbernardino@hotmail.com','50740','Ixtlahuca','Nijini','Capital Cortez','Avenida Principal');
 INSERT INTO persona VALUES(15,'Jovani','Monrroy','Vilchis','MOVJ000902ZAQWSSX4','M','Estado de Mexico',5512365490,'jmvilchis@hotmail.com','50740','Ixtlahuca','Reyes','Fuente de Ballecas','Avenida Principal');
 INSERT INTO persona VALUES(16,'Margarita','Salinas','Martinez','SAMM991003XCDERRF5','F','Estado de Mexico',7121458963,'msmatinez@hotmail.com','50740','Ixtlahuca','Portesgil','AlvarezdeToledo','Avenida Principal');
@@ -20,7 +19,7 @@ INSERT INTO persona VALUES(18,'Sofia','Mendoza','Alvarez','MEAS971205NMJUIIK7','
 INSERT INTO persona VALUES(19,'Jesus','Carrillo','Vergara','CAVJ960106KLOPNNP8','M','Veracruz',7124563695,'jcvergara@hotmail.com','50740','Ixtlahuca','Santo Domingo','Las Bugambilias','Avenida Principal');
 INSERT INTO persona VALUES(20,'Raul','Melquiades','Monrroy','MEMR950207LPOIKKM9','M','Estado de Mexico',5536987412,'rmoros@gmail.com','50740','Ixtlahuca','San Francisco','General Astray','Avenida Principal');
 INSERT INTO persona VALUES(21,'Arturo','Valdez','Ortega','VAOA940308NJUYGGV0','M','Jalisco',5512369875,'avortega@hotmail.com','50740','Ixtlahuca','Cachi','Comandante Sorita','Avenida Principal');
-INSERT INTO persona VALUES(22,'Reyna','Angeles','Miranda','ANMR930409MVHDZZB1','F','Estado de Mexico',551234569873,'ramiranda@gmail.com','50740','Ixtlahuca','Loma Hidalgo','Emiliano Zapata','Avenida Principal');
+INSERT INTO persona VALUES(22,'Reyna','Angeles','Miranda','ANMR930409MVHDZZB1','F','Estado de Mexico',5512349873,'ramiranda@gmail.com','50740','Ixtlahuca','Loma Hidalgo','Emiliano Zapata','Avenida Principal');
 INSERT INTO persona VALUES(23,'Cesar','Santigo','Chavez','SACC940510QWEASSD2','M','Hidalgo',5585236974,'cschavez@gmail.com','50740','Ixtlahuca','San Juan','Tlalpan','Avenida Principal');
 INSERT INTO persona VALUES(24,'Benito','Juarez','Garcia','JUGB920611NBHGYYT3','M','Estado de Mexico',7121159324,'bjgarcia@hotmail.com','50740','Ixtlahuca','Santa Maria','Bonita','Avenida Principal');
 INSERT INTO persona VALUES(25,'Frida','Nava','Lopez','NALF910712LPOKVVB4','F','Estado de Mexico',5596301230,'fnlopez@hotmail.com','50740','Ixtlahuca','Nijini','16de Septiembre','Avenida Principal');
@@ -29,11 +28,9 @@ INSERT INTO persona VALUES(27,'Edmundo','Chaves','Chaves','CHCE020914HGYTNNZ6','
 INSERT INTO persona VALUES(28,'Carla','Mendoza','Ortiz','MEOC011015MPNOBBI7','F','Monterrey',7121459852,'cmortiz@hotmail.com','50740','Ixtlahuca','Zapat','Calle Rosal','Avenida Principal');
 INSERT INTO persona VALUES(29,'Samuel','Florencio','Veltran','FLVS001116QZWXEEC8','M','Estado de Mexico',5544220011,'sfveltran@hotmail.com','50740','Ixtlahuaca','Santa Maria','Venustiano','Avenida Principal');
 INSERT INTO persona VALUES(30,'Samantha','Nava','Ayala','NAAS001217ALSKJJD9','F','Estado de Mexico',7121036987,'snayala@gmail.com','50740','Ixtlahuca','San Juan','Barrio Lindo','Avenida Principal');
-
-#Docentes 
 INSERT INTO persona VALUES(31,'Teresa','Plata','Hernandez','PLHT900101QWXZSSD1','F','Estado de Mexico',7121893857,'tphernandez@gmail.com','50727','Jocotitlan','Los Reyes','Buenavista','Av. 20 de noviembre');
 INSERT INTO persona VALUES(32,'Erika','Cortez','Nazar','CONE890202JHKGFFN2','F','Estado de Mexico',7122123618,'ecnazar@gmail.com','5798','concepcion de los baños','San pedro de los baños','Mavoro','calle 32-c');
-INSERT INTO persona VALUES(33,'Juan','Olmedo','Lopez','OLLJ880303VFGBTTR3','M','Estado de Mexico',7223456894,'jcapolo@gmail.com','50600','Ixtlahuaca','san lorenzo toxico','manzana 8');
+INSERT INTO persona VALUES(33,'Juan','Olmedo','Lopez','OLLJ880303VFGBTTR3','M','Estado de Mexico',7223456894,'jcapolo@gmail.com','50600','Ixtlahuaca','san lorenzo toxico','manzana 8','Avenida Principal');
 INSERT INTO persona VALUES(34,'Leticia','Bribisca','Castillo','BRCL870404QWASDDE4','F','Distrito Federal',5536275438,'lbcastillo@gmail.com','50740','los reyes la paz','santha martha','acatitla','nicolas bravo');
 INSERT INTO persona VALUES(35,'Lorena','Cruz','Guzman','CRGL860505JHUYGGX5','F','Estado de Mexico',7224864434,'lcguzman@gmail.com','50780','los reyes la paz','Olimpia','Emiliano Zapata','lázaro cárdenas');
 INSERT INTO persona VALUES(36,'Juan','Ambriz','Polo','AMPJ850606ERDFCCV6','M','Estado de Mexico',7122639491,'jambriz@gmail.com','50730','Atlacomulco','atravillacuatromilpas','rayon','Chabacano');
@@ -59,8 +56,8 @@ INSERT INTO persona VALUES(55,'Fatima','Sanches','Medina','SAMF880125VFGBDDA5','
 INSERT INTO persona VALUES(56,'Ivan','Silva','Reyes','SIRI870226IRUEBBX6','M','Monterrey',5567894332,'isreyes@gmail.com','50780','atlacomulco','milpalta','reyes','calleodilon');
 INSERT INTO persona VALUES(57,'Jesus Eduardo','Fuentez','Quezada','FUQJ860327HGYTEEB7','M','Estado de Mexico',7129356780,'jefquezada@gmail.com','50789','ixtlahuaca','rayon','Sanlorenzo','calleazalea');
 INSERT INTO persona VALUES(58,'Jackelin','Orduña','Antonio','ORAJ850428CHFBJJT8','F','Estado de Mexico',5534678856,'joantonio@gmail.com','50625','jocotitlan','Losreyes','barriomartin','callegomezfarias');
-INSERT INTO persona VALUES(59,'Shunely','Bonifacio','De Jesus','BODS840529NBHFSSW9','F','Hidalgo',7345689030,'50789','Metepec','Morelos','Farias','Magdalena','callegeranio');
-INSERT INTO persona VALUES(60,'Luis','Nava','Martinez','NAML830430NHYKYYZ0','M','Estado de Mexico',7122456734,'lnmartinez@gmail.com','5760','Ixtlahuaca','rayon','San Lorenzo Toxico','Manzana 1');
+INSERT INTO persona VALUES(59,'Shunely','Bonifacio','De Jesus','BODS840529NBHFSSW9','F','Hidalgo',7345689030,'sdbonifacio@gmail.com','50789','Metepec','Morelos','Farias','callegeranio');
+INSERT INTO persona VALUES(60,'Luis','Nava','Martinez','NAML830430NHYKYYZ0','M','Estado de Mexico',7122456734,'lnmartinez@gmail.com','5760','Ixtlahuaca','Rayon','San Lorenzo Toxico','Manzana 1');
 
 #Tabla Opcion
 INSERT INTO opcion VALUES (0,'EQUIV','No_Cursada',' Curso Especial');
@@ -282,6 +279,9 @@ insert into tipo values(9602,'Constancia de estudios con promedio del semestre i
 insert into tipo values(9603,'Constancia de estudios con calificaciones del semestre inmediato anterior','Especifica las calificaciones por materia del semestre anterior');
 insert into tipo values(9604,'Historial Académico (Kardex)','Especifica las calificaciones de las materias de todos los semestres anteriores');
 insert into tipo values(9605,'Boleta','Especifica las calificaicones por unidad de las materias del semestre terminado');
+# Registros tipo_certificado
+INSERT INTO tipo VALUES(9606,'CERTIFICADO DE ESTUDIOS TOTAL','Documento de calificaciones certifacada',821);
+INSERT INTO tipo VALUES(9607,'CERTIFICADO DE ESTUDIOS PARCIAL','Documento de calificaciones certifacada',409);
                         
  #insersion de datos en tabla grupo EN ORACLE       
 INSERT INTO GRUPO VALUES (101,'A','LZ-301',PENDIENTE);
@@ -517,108 +517,42 @@ INSERT INTO DOCENTE VALUES (027,'15874695','ESPECIALIDAD','EN DESARROLLO DE BASE
 INSERT INTO DOCENTE VALUES (028,'03265874','ESPECIALIDAD','EN DESARROLLO DE BASE DE DATOS','78495821474',28);
 INSERT INTO DOCENTE VALUES (029,'78965412','ESPECIALIDAD','EN DERECHO FISCAL','12564789361',29);
 INSERT INTO DOCENTE VALUES (030,'17435812','MAESTRIA','EN FISICA Y CIENCIA DE LOS MATERIALES','52142536102',30);
-			    
-			  #DATOS DE TABLA DOCENTE EN MySQL
-insert into Docente VALUES (2000,12345671,'Carrera Profecional',12345678910,1000);
-insert into Docente VALUES (2001,12345672,'Carrera Profecional',12345678911,1001);
-insert into Docente VALUES (2002,12345673,'Carrera Profecional',12345678912,1002);
-insert into Docente VALUES (2003,12345674,'Carrera Profecional',12345678913,1003);
-insert into Docente VALUES (2004,12345675,'Carrera Profecional',12345678914,1004);
-insert into Docente VALUES (2005,12345676,'Carrera Profecional',12345678915,1005);
-insert into Docente VALUES (2006,12345677,'Carrera Profecional',12345678916,1006);
-insert into Docente VALUES (2007,12345678,'Carrera Profecional',12345678917,1007);
-insert into Docente VALUES (2008,12345679,'Carrera Profecional',12345678918,1008);
-insert into Docente VALUES (2009,12345680,'Carrera Profecional',12345678919,1009);
-insert into Docente VALUES (2010,12345681,'Carrera Profecional',12345678920,1010);
-insert into Docente VALUES (2011,12345682,'Carrera Profecional',12345678921,1011);
-insert into Docente VALUES (2012,12345683,'Carrera Profecional',12345678922,1012);
-insert into Docente VALUES (2013,12345684,'Carrera Profecional',12345678923,1013);
-insert into Docente VALUES (2014,12345685,'Carrera Profecional',12345678924,1014);
-insert into Docente VALUES (2015,12345686,'Carrera Profecional',12345678925,1015);
-insert into Docente VALUES (2016,12345687,'Carrera Profecional',12345678926,1016);
-insert into Docente VALUES (2017,12345688,'Carrera Profecional',12345678927,1017);
-insert into Docente VALUES (2018,12345689,'Carrera Profecional',12345678928,1018);
-insert into Docente VALUES (2019,12345690,'Carrera Profecional',12345678929,1019);
-insert into Docente VALUES (2020,12345691,'Carrera Profecional',12345678930,1000);
-insert into Docente VALUES (2021,12345692,'Carrera Profecional',12345678931,1021);
-insert into Docente VALUES (2022,12345693,'Carrera Profecional',12345678932,1021);
-insert into Docente VALUES (2023,12345694,'Carrera Profecional',12345678933,1022);
-insert into Docente VALUES (2024,12345695,'Carrera Profecional',12345678934,1023);
-insert into Docente VALUES (2025,12345696,'Carrera Profecional',12345678935,1024);
-insert into Docente VALUES (2026,12345697,'Carrera Profecional',12345678936,1025);
-insert into Docente VALUES (2027,12345698,'Carrera Profecional',12345678937,1026);
-insert into Docente VALUES (2028,12345699,'Carrera Profecional',12345678938,1027);
-insert into Docente VALUES (2029,12345100,'Carrera Profecional',12345678939,1028);
-insert into Docente VALUES (2000,12345101,'Carrera Profecional',12345678940,1029);
 
-			    #DATOS DE EXAMEN EN MySQL
-INSERT INTO EXAMEN VALUES (1000,'14:23','2020-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1001,'12:32','2021-02-01','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1003,'11:23','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1004,'21:32','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1005,'13:51','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1006,'19:55','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1007,'17:42','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1008,'07:21','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1010,'24:10','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1011,'11:54','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1012,'21:45','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1013,'22:34','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1014,'20:14','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1015,'12:53','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1016,'08:23','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1017,'09:54','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1018,'21:46','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1019,'22:31','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1020,'23:59','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1021,'13:56','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1022,'16:40','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1023,'10:22','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1024,'19:12','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1025,'20:11','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1026,'18:47','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1027,'08:21','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1028,'12:54','2021-11-25','TESJo',0,0);
-INSERT INTO EXAMEN VALUES (1029,'07:13','2021-11-25','TESJo',0,0);
-
-# Registros tipo_certificado
-INSERT INTO tipo_certificado VALUES('CC','CERTIFICADO DE ESTUDIOS TOTAL',821);
-INSERT INTO tipo_certificado VALUES('CD','CERTIFICADO DE ESTUDIOS PARCIAL',409);
 #Registros certificados	
-INSERT INTO certificados VALUES('C1','2018150480052','CC',14001);
-INSERT INTO certificados VALUES('C2','2018150480053','CC',14002);
-INSERT INTO certificados VALUES('C3','2018150480054','CC',14003);
-INSERT INTO certificados VALUES('C4','2018150480055','CC',14004);
-INSERT INTO certificados VALUES('C5','2018150480056','CC',14005);
-INSERT INTO certificados VALUES('C6','2018150480057','CD',14006);
-INSERT INTO certificados VALUES('C7','2018150480058','CD',14007);
-INSERT INTO certificados VALUES('C8','2018150480059','CD',14008);
-INSERT INTO certificados VALUES('C9','2018150480060','CD',14009);
-INSERT INTO certificados VALUES('C10','2018150480061','CD',14010);
+INSERT INTO certificados VALUES('C1','2018150480052',9606,14001);
+INSERT INTO certificados VALUES('C2','2018150480053',9606,14002);
+INSERT INTO certificados VALUES('C3','2018150480054',9606,14003);
+INSERT INTO certificados VALUES('C4','2018150480055',9606,14004);
+INSERT INTO certificados VALUES('C5','2018150480056',9606,14005);
+INSERT INTO certificados VALUES('C6','2018150480057',9607,14006);
+INSERT INTO certificados VALUES('C7','2018150480058',9607,14007);
+INSERT INTO certificados VALUES('C8','2018150480059',9607,14008);
+INSERT INTO certificados VALUES('C9','2018150480060',9607,14009);
+INSERT INTO certificados VALUES('C10','2018150480061',9607,14010);
                             
-INSERT INTO certificados VALUES('C20','2018150480900','CC', 14020);
-INSERT INTO certificados VALUES('C18','2018150480915','CD', 14011);
-INSERT INTO certificados VALUES('C13','2018150480945','CC', 14012);
-INSERT INTO certificados VALUES('C11','2018150480975','CD', 14013);
-INSERT INTO certificados VALUES('C12','2018150480969','CC', 14014);
-INSERT INTO certificados VALUES('C15','2018150480947','CD', 14015);
-INSERT INTO certificados VALUES('C17','2018150480930','CC', 14016);
-INSERT INTO certificados VALUES('C14','2018150480974','CD', 14017);
-INSERT INTO certificados VALUES('C16','2018150480988','CC', 14018);
-INSERT INTO certificados VALUES('C19','2018150480985','CD', 14019);
+INSERT INTO certificados VALUES('C20','2018150480900',9606, 14020);
+INSERT INTO certificados VALUES('C18','2018150480915',9607, 14011);
+INSERT INTO certificados VALUES('C13','2018150480945',9606, 14012);
+INSERT INTO certificados VALUES('C11','2018150480975',9607, 14013);
+INSERT INTO certificados VALUES('C12','2018150480969',9606, 14014);
+INSERT INTO certificados VALUES('C15','2018150480947',9607, 14015);
+INSERT INTO certificados VALUES('C17','2018150480930',9606, 14016);
+INSERT INTO certificados VALUES('C14','2018150480974',9607, 14017);
+INSERT INTO certificados VALUES('C16','2018150480988',9606, 14018);
+INSERT INTO certificados VALUES('C19','2018150480985',9607, 14019);
 			    
 			    
                             
-INSERT INTO certificados VALUES('C21','2018150480195','CD', 14030);
-INSERT INTO certificados VALUES('C22','2018150480034','CC', 14021);
-INSERT INTO certificados VALUES('C23','2018150480572','CD', 14022);
-INSERT INTO certificados VALUES('C24','2018150480246','CC', 14023);
-INSERT INTO certificados VALUES('C25','2018150480125','CD', 14024);
-INSERT INTO certificados VALUES('C26','2018150480873','CC', 14025);
-INSERT INTO certificados VALUES('C27','2018150480164','CD', 14026);
-INSERT INTO certificados VALUES('C28','2018150480073','CC', 14027);
-INSERT INTO certificados VALUES('C29','2018150480724','CD', 14028);
-INSERT INTO certificados VALUES('C30','2018150480936','CC', 14029);
+INSERT INTO certificados VALUES('C21','2018150480195',9607, 14030);
+INSERT INTO certificados VALUES('C22','2018150480034',9606, 14021);
+INSERT INTO certificados VALUES('C23','2018150480572',9607, 14022);
+INSERT INTO certificados VALUES('C24','2018150480246',9606, 14023);
+INSERT INTO certificados VALUES('C25','2018150480125',9607, 14024);
+INSERT INTO certificados VALUES('C26','2018150480873',9606, 14025);
+INSERT INTO certificados VALUES('C27','2018150480164',9607, 14026);
+INSERT INTO certificados VALUES('C28','2018150480073',9606, 14027);
+INSERT INTO certificados VALUES('C29','2018150480724',9607, 14028);
+INSERT INTO certificados VALUES('C30','2018150480936',9606, 14029);
 			    
 			   #Incercion en tabla materias
 
@@ -803,3 +737,67 @@ INSERT INTO PAGO VALUES (12027,'Examen de Admision', 97000121901500000137,469);
 INSERT INTO PAGO VALUES (12028,'Examen de Admision', 97000121901500000138,469);
 INSERT INTO PAGO VALUES (12029,'Examen de Admision', 97000121901500000139,469);
 INSERT INTO PAGO VALUES (12030,'Examen de Admision', 97000121901500000140,469);
+
+
+############ REGISTROS INSCRIPCIONES PENDIENTE ###############
+#   							ID CARGA 	num_control   grupo Semestre
+INSERT INTO CargaAcademica VALUES (100001, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100002, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100003, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100004, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100005, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100006, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100007, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100008, '201815048005', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100009, '201815048006', 101, 1001);
+INSERT INTO CargaAcademica VALUES (100010, '201815048006', 101, 1001);
+
+#							   id_inscr  ID_CARGA
+INSERT INTO Inscripciones VALUES (1001, 100001);
+INSERT INTO Inscripciones VALUES (1002, 100002);
+INSERT INTO Inscripciones VALUES (1003, 100003);
+INSERT INTO Inscripciones VALUES (1004, 100004);
+INSERT INTO Inscripciones VALUES (1005, 100005);
+INSERT INTO Inscripciones VALUES (1006, 100006);
+INSERT INTO Inscripciones VALUES (1007, 100007);
+INSERT INTO Inscripciones VALUES (1008, 100008);
+INSERT INTO Inscripciones VALUES (1009, 100009);
+INSERT INTO Inscripciones VALUES (1010, 100010);
+
+#									 ID_Insc  ID_PAGO
+# Pago por Inscripcion y Recursamiento (vease registro de pagos)
+INSERT INTO Inscripciones_Pago VALUES (1001, 11001);
+INSERT INTO Inscripciones_Pago VALUES (1001, 20001);
+
+#Pagos por Inscripcion
+INSERT INTO Inscripciones_Pago VALUES (1002, 11002);
+INSERT INTO Inscripciones_Pago VALUES (1003, 11003);
+INSERT INTO Inscripciones_Pago VALUES (1004, 11004);
+INSERT INTO Inscripciones_Pago VALUES (1005, 11005);
+INSERT INTO Inscripciones_Pago VALUES (1006, 11006);
+INSERT INTO Inscripciones_Pago VALUES (1007, 11007);
+INSERT INTO Inscripciones_Pago VALUES (1008, 11008);
+INSERT INTO Inscripciones_Pago VALUES (1009, 11009);
+INSERT INTO Inscripciones_Pago VALUES (1010, 11010);
+
+
+# Carga #1 Con 6 materias 		 ID_CARGA	ID_MATERIA
+INSERT INTO Materias_Carga VALUES (100001, 'SCC-1010');
+INSERT INTO Materias_Carga VALUES (100001, 'AEC-1061');
+INSERT INTO Materias_Carga VALUES (100001, 'SCC-1007');
+INSERT INTO Materias_Carga VALUES (100001, 'SCD-1003');
+INSERT INTO Materias_Carga VALUES (100001, 'SCA-1025');
+INSERT INTO Materias_Carga VALUES (100001, 'AEC-1034');
+);
+
+
+# Pendientes por llenar, Son 30 cargas con 6(+) materias
+INSERT INTO Materias_Carga VALUES (100002, 
+INSERT INTO Materias_Carga VALUES (100003, 
+INSERT INTO Materias_Carga VALUES (100004, 
+INSERT INTO Materias_Carga VALUES (100005, 
+INSERT INTO Materias_Carga VALUES (100006, 
+INSERT INTO Materias_Carga VALUES (100007, 
+INSERT INTO Materias_Carga VALUES (100008, 
+INSERT INTO Materias_Carga VALUES (100009, 
+INSERT INTO Materias_Carga VALUES (100010, 
