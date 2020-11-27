@@ -510,3 +510,12 @@ INSERT INTO unidades VALUES('AEC-1034-3',3,'Modulación ','AEC-1034');
 INSERT INTO unidades VALUES('AEC-1034-4',4,'Técnicas de conmutación y multiplexación','AEC-1034');
 INSERT INTO unidades VALUES('AEC-1034-5',5,'Modelos y dispositivos de comunicación','AEC-1034');         
 
+INSERT INTO opcion VALUES (1,'EQUIV','No_Cursada',' Curso Especial');
+INSERT INTO opcion VALUES (2,'CN1','Primera Oportunidad O','Curso Ordinario');
+INSERT INTO opcion VALUES (3,'ER1','Segunda Oportunidad O','Curso Ordinario');
+INSERT INTO opcion VALUES (4,'EEX','Curso sabatino','Curso Especial');
+INSERT INTO opcion VALUES (5,'CN2','Primera Oportunidad R','Curso Recurse');
+INSERT INTO opcion VALUES (6,'ER2','Segunda Oportunidad R','Curso Recurse');
+INSERT INTO opcion VALUES (7,'EG1','Curso Verano O','Curso Ordinario');
+INSERT INTO opcion VALUES (8,'EG2','Curso Verano E','Curso Especial');
+INSERT INTO opcion VALUES (9,'EE','Especial','Curso Especial');    
