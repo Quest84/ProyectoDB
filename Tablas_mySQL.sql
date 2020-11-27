@@ -1,19 +1,19 @@
 # tabla tipo certificado
-CREATE TABLE tipo_certificado(
+/*CREATE TABLE tipo_certificado(
 id_tipo varchar(2) NOT NULL PRIMARY KEY,
 nombre varchar (35),
 precio int
-);
+);*/
 #tabla certificado
 CREATE TABLE certificados(
 id_certificado varchar(20) NOT NULL PRIMARY KEY,
 num_control varchar(13) NOT NULL,
-id_tipo_certificado varchar(2),
+id_tipo_certificado int,
 id_pago int,
 CONSTRAINT alumno_certificado FOREIGN KEY(num_control) REFERENCES alumnos (num_control)
 ON DELETE CASCADE
 ON UPDATE CASCADE,
-CONSTRAINT tipo_certificado FOREIGN KEY(id_tipo_certificado) REFERENCES tipo_certificado (id_tipo)
+CONSTRAINT tipo_certificado FOREIGN KEY(id_tipo_certificado) REFERENCES tipo(id_tipo)
 ON DELETE CASCADE
 ON UPDATE CASCADE,
 CONSTRAINT pago_certificado FOREIGN KEY(id_pago) REFERENCES Pagos(id_pago)
