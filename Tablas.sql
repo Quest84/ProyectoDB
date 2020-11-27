@@ -86,7 +86,7 @@ CONSTRAINT docente_pk PRIMARY KEY (id_docente)
  #Tabla materias
  CREATE TABLE materias( 
 	clave_materia VARCHAR(10) NOT NULL, 
-	nombre varchar(30), 
+	nombre varchar(50), 
 	unidades int, 
 	creditos int, 
 	horas_practicas int, 
