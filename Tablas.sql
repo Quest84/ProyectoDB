@@ -200,8 +200,8 @@ precio int,
 constraint id_tipo_pk primary key(id_tipo)
 );
 
-/*Tabla constancia
-create table constancia(*/
+/*Tabla constancia*/
+create table constancia(
 id_constancia int not null, 
 fecha date,
 num_control varchar(13) not null, 
