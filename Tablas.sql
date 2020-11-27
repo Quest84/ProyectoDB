@@ -37,29 +37,28 @@ CREATE TABLE unidades(
 
 # tabla persona
 CREATE TABLE persona(
-	id_persona number NOT NULL PRIMARY KEY,
+	id_persona number NOT NULL,
 	nombre varchar(30),
 	apellido_paterno varchar(40),
 	apellido_materno varchar(40),
 	curp varchar(18),
 	sexo char,
-	estado varchar(50),
+	estado varchar(50) DEFAULT 'Estado de México' NOT NULL,
 	telefono number(10),
 	correo varchar(13),
 	codigo_postal varchar(5),
 	municipio varchar(50),
 	localidad varchar(50),
 	colonia varchar(50),
-	calle varchar(50)
-	ON DELETE CASCADE ENABLE
+	calle varchar(50),
+	CONSTRAINT pk_id_persona PRIMARY KEY(id_persona)
 );
-
 #Tabla opcion
-create table opcion(
-id_opcion int not null, 
-nombre_opcion varchar(50) not null,
-descripcion varchar(50) not null, 
-constraint id_opcion_pk primary key(id_opcion )
+CREATE TABLE opcion(
+	id_opcion number not null, 
+	nombre_opcion varchar(50) not null,
+	descripcion varchar(50) not null, 
+	CONSTRAINT id_opcion_pk primary key(id_opcion)
 );
 
 

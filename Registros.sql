@@ -1,17 +1,16 @@
-#Alumnos
 INSERT INTO persona VALUES(01,'Jaime','Balderas','Jimenez','BAJJ000322HMCLMMA1','M','Estado de Mexico',7122196489,'jbjimenez@gmail.com','50783','Ixtlahuaca','San Antonio Bonixi','Melchor Ocampo','Avenida Principal');
-INSERT INTO persona VALUES(02,'Beatriz','Mendoza','Ocampo','MEOB991221FMUDBUC2','F','Estado de Mexico',5544477788,'bmocampo@hotmail.com','50740','Ixtlahuaca','San Francisco','Gustavo Baz',’Avenida Principal’);
-INSERT INTO persona VALUES(03,'Lorena','Garza','Sisneros','GASL980902JDNGMMQ3','F','Estado de Mexico',7122165544,'lgsisneros@gmail.com','50740','Ixtlahuca','Morelos','Adolfo Lopez',’Avenida Principal’);
-INSERT INTO persona VALUES(04,'Alejandro','Paez','Salinas','PASA971003OEJVNMQ4','M','Queretaro',5559632147,'apsalinas@hotmail.com','50740','Ixtlahuaca','San Pedro','Venustiano',’Avenida principal’);
+INSERT INTO persona VALUES(02,'Beatriz','Mendoza','Ocampo','MEOB991221FMUDBUC2','F','Estado de Mexico',5544477788,'bmocampo@hotmail.com','50740','Ixtlahuaca','San Francisco','Gustavo Baz','Avenida Principal');
+INSERT INTO persona VALUES(03,'Lorena','Garza','Sisneros','GASL980902JDNGMMQ3','F','Estado de Mexico',7122165544,'lgsisneros@gmail.com','50740','Ixtlahuca','Morelos','Adolfo Lopez','Avenida Principal');
+INSERT INTO persona VALUES(04,'Alejandro','Paez','Salinas','PASA971003OEJVNMQ4','M','Queretaro',5559632147,'apsalinas@hotmail.com','50740','Ixtlahuaca','San Pedro','Venustiano','Avenida principal');
 INSERT INTO persona VALUES(05,'Sandra','Reyes','Sanchez','RESS961104GBVMSSV5','F','Estado de Mexico',5596354782,'srsanchez@gmail.com','50740','Intlaguaca','Barri de los Perales','Carranza','Avenida Principal');
-INSERT INTO persona VALUES(06,'Arturo','Gonzales','Sanchez','GOSA951205YRHCGLL6','M','Estado de Mexico',71248963214,'agsanchez@hotmail.com','50740','Ixtlahuaca','San Pedro','Frida Kahlo','Avenida Principal');	
-INSERT INTO persona VALUES(07,'Martha','Beatriz','Martinez','BEMM940106GHJKLLÑ7','F','Estado de Mexico',5545789632,'mbmartinez@gmail.com','50740','Ixtlahuaca','San Bartolo','Emiliano','Avenida Principal');
+INSERT INTO persona VALUES(06,'Arturo','Gonzales','Sanchez','GOSA951205YRHCGLL6','M','Estado de Mexico',7124896321,'agsanchez@hotmail.com','50740','Ixtlahuaca','San Pedro','Frida Kahlo','Avenida Principal');	
+INSERT INTO persona VALUES(07,'Martha','Beatriz','Martinez','BEMM940106GHJKLLE7','F','Estado de Mexico',5545789632,'mbmartinez@gmail.com','50740','Ixtlahuaca','San Bartolo','Emiliano','Avenida Principal');
 INSERT INTO persona VALUES(08,'Jonathan','Gonzalez','Gutierrez','GOGJ930207QWERTTY8','M','Estado de Mexico',5536987412,'jggutierrez@gmail.com','50740','Ixtlahuaca','Santa Cruz','Rayon','Avenida Principal');
-INSERT INTO persona VALUES(09,'Gustavo','Salinas','Salinas','SASG920308ASDFGGH9','M','Michoacan',7122369854,'50740','gssalinas@gmail.com','50740','Ixtlaguaca','Atlacomulco','Loma','Avenida Principal');
-INSERT INTO persona VALUES(10,'Carla','Florencio','Lopez','FLLC910409ZXCVBBN0','F','Estado de Mexico',554123658951,'cflopez@hotmail.com','50740','Ixtlahuca','San Juan','Obregón','Avenida Principal');
+INSERT INTO persona VALUES(09,'Gustavo','Salinas','Salinas','SASG920308ASDFGGH9','M','Michoacan',7122369854,'gssalinas@gmail.com','50740','Ixtlahuaca','Atlacomulco','Loma','Avenida Principal');
+INSERT INTO persona VALUES(10,'Carla','Florencio','Lopez','FLLC910409ZXCVBBN0','F','Estado de Mexico',5541236585,'cflopez@hotmail.com','50740','Ixtlahuca','San Juan','Obregón','Avenida Principal');
 INSERT INTO persona VALUES(11,'Leticia','Cruz','Meliton','CRML900510MNBVCCX1','F','Estado de Mexico',7122145896,'lcmeliton@hotmail.com','50740','Ixtlahuaca','Jiquipilco','Amargura','Avenida Principal');
 INSERT INTO persona VALUES(12,'Lorenzo','Marcelo','Gutierrez','MAGL010611POIUYYT2','M','Estado de Mexico',55444888,'lmgutierrez@hotmail.com','50740','Ixtlahuaca','Zapata','Loma de Bezares','Avenida Principal');
-INSERT INTO persona VALUES(13,'Francisco','Gonzales','Gonzales','GOGF0200712BHGNKWWQ3','M','Estado de Mexico',7121458963,'fggonzales@hotmail.com','50740','Ixtlahuaca','Santa Maria','Barranca del Muerto','Avenida Principal');
+INSERT INTO persona VALUES(13,'Francisco','Gonzales','Gonzales','GOGF020712BHGKWWQ3','M','Estado de Mexico',7121458963,'fggonzales@hotmail.com','50740','Ixtlahuaca','Santa Maria','Barranca del Muerto','Avenida Principal');
 INSERT INTO persona VALUES(14,'Silvia','Martinez','Bernardino','MABS010801DGBCHH4','F','Sinaloa',5544412368,'smbernardino@hotmail.com','50740','Ixtlahuca','Nijini','Capital Cortez','Avenida Principal');
 INSERT INTO persona VALUES(15,'Jovani','Monrroy','Vilchis','MOVJ000902ZAQWSSX4','M','Estado de Mexico',5512365490,'jmvilchis@hotmail.com','50740','Ixtlahuca','Reyes','Fuente de Ballecas','Avenida Principal');
 INSERT INTO persona VALUES(16,'Margarita','Salinas','Martinez','SAMM991003XCDERRF5','F','Estado de Mexico',7121458963,'msmatinez@hotmail.com','50740','Ixtlahuca','Portesgil','AlvarezdeToledo','Avenida Principal');
@@ -20,7 +19,7 @@ INSERT INTO persona VALUES(18,'Sofia','Mendoza','Alvarez','MEAS971205NMJUIIK7','
 INSERT INTO persona VALUES(19,'Jesus','Carrillo','Vergara','CAVJ960106KLOPNNP8','M','Veracruz',7124563695,'jcvergara@hotmail.com','50740','Ixtlahuca','Santo Domingo','Las Bugambilias','Avenida Principal');
 INSERT INTO persona VALUES(20,'Raul','Melquiades','Monrroy','MEMR950207LPOIKKM9','M','Estado de Mexico',5536987412,'rmoros@gmail.com','50740','Ixtlahuca','San Francisco','General Astray','Avenida Principal');
 INSERT INTO persona VALUES(21,'Arturo','Valdez','Ortega','VAOA940308NJUYGGV0','M','Jalisco',5512369875,'avortega@hotmail.com','50740','Ixtlahuca','Cachi','Comandante Sorita','Avenida Principal');
-INSERT INTO persona VALUES(22,'Reyna','Angeles','Miranda','ANMR930409MVHDZZB1','F','Estado de Mexico',551234569873,'ramiranda@gmail.com','50740','Ixtlahuca','Loma Hidalgo','Emiliano Zapata','Avenida Principal');
+INSERT INTO persona VALUES(22,'Reyna','Angeles','Miranda','ANMR930409MVHDZZB1','F','Estado de Mexico',5512349873,'ramiranda@gmail.com','50740','Ixtlahuca','Loma Hidalgo','Emiliano Zapata','Avenida Principal');
 INSERT INTO persona VALUES(23,'Cesar','Santigo','Chavez','SACC940510QWEASSD2','M','Hidalgo',5585236974,'cschavez@gmail.com','50740','Ixtlahuca','San Juan','Tlalpan','Avenida Principal');
 INSERT INTO persona VALUES(24,'Benito','Juarez','Garcia','JUGB920611NBHGYYT3','M','Estado de Mexico',7121159324,'bjgarcia@hotmail.com','50740','Ixtlahuca','Santa Maria','Bonita','Avenida Principal');
 INSERT INTO persona VALUES(25,'Frida','Nava','Lopez','NALF910712LPOKVVB4','F','Estado de Mexico',5596301230,'fnlopez@hotmail.com','50740','Ixtlahuca','Nijini','16de Septiembre','Avenida Principal');
@@ -29,11 +28,9 @@ INSERT INTO persona VALUES(27,'Edmundo','Chaves','Chaves','CHCE020914HGYTNNZ6','
 INSERT INTO persona VALUES(28,'Carla','Mendoza','Ortiz','MEOC011015MPNOBBI7','F','Monterrey',7121459852,'cmortiz@hotmail.com','50740','Ixtlahuca','Zapat','Calle Rosal','Avenida Principal');
 INSERT INTO persona VALUES(29,'Samuel','Florencio','Veltran','FLVS001116QZWXEEC8','M','Estado de Mexico',5544220011,'sfveltran@hotmail.com','50740','Ixtlahuaca','Santa Maria','Venustiano','Avenida Principal');
 INSERT INTO persona VALUES(30,'Samantha','Nava','Ayala','NAAS001217ALSKJJD9','F','Estado de Mexico',7121036987,'snayala@gmail.com','50740','Ixtlahuca','San Juan','Barrio Lindo','Avenida Principal');
-
-#Docentes 
 INSERT INTO persona VALUES(31,'Teresa','Plata','Hernandez','PLHT900101QWXZSSD1','F','Estado de Mexico',7121893857,'tphernandez@gmail.com','50727','Jocotitlan','Los Reyes','Buenavista','Av. 20 de noviembre');
 INSERT INTO persona VALUES(32,'Erika','Cortez','Nazar','CONE890202JHKGFFN2','F','Estado de Mexico',7122123618,'ecnazar@gmail.com','5798','concepcion de los baños','San pedro de los baños','Mavoro','calle 32-c');
-INSERT INTO persona VALUES(33,'Juan','Olmedo','Lopez','OLLJ880303VFGBTTR3','M','Estado de Mexico',7223456894,'jcapolo@gmail.com','50600','Ixtlahuaca','san lorenzo toxico','manzana 8');
+INSERT INTO persona VALUES(33,'Juan','Olmedo','Lopez','OLLJ880303VFGBTTR3','M','Estado de Mexico',7223456894,'jcapolo@gmail.com','50600','Ixtlahuaca','san lorenzo toxico','manzana 8','Avenida Principal');
 INSERT INTO persona VALUES(34,'Leticia','Bribisca','Castillo','BRCL870404QWASDDE4','F','Distrito Federal',5536275438,'lbcastillo@gmail.com','50740','los reyes la paz','santha martha','acatitla','nicolas bravo');
 INSERT INTO persona VALUES(35,'Lorena','Cruz','Guzman','CRGL860505JHUYGGX5','F','Estado de Mexico',7224864434,'lcguzman@gmail.com','50780','los reyes la paz','Olimpia','Emiliano Zapata','lázaro cárdenas');
 INSERT INTO persona VALUES(36,'Juan','Ambriz','Polo','AMPJ850606ERDFCCV6','M','Estado de Mexico',7122639491,'jambriz@gmail.com','50730','Atlacomulco','atravillacuatromilpas','rayon','Chabacano');
@@ -59,8 +56,8 @@ INSERT INTO persona VALUES(55,'Fatima','Sanches','Medina','SAMF880125VFGBDDA5','
 INSERT INTO persona VALUES(56,'Ivan','Silva','Reyes','SIRI870226IRUEBBX6','M','Monterrey',5567894332,'isreyes@gmail.com','50780','atlacomulco','milpalta','reyes','calleodilon');
 INSERT INTO persona VALUES(57,'Jesus Eduardo','Fuentez','Quezada','FUQJ860327HGYTEEB7','M','Estado de Mexico',7129356780,'jefquezada@gmail.com','50789','ixtlahuaca','rayon','Sanlorenzo','calleazalea');
 INSERT INTO persona VALUES(58,'Jackelin','Orduña','Antonio','ORAJ850428CHFBJJT8','F','Estado de Mexico',5534678856,'joantonio@gmail.com','50625','jocotitlan','Losreyes','barriomartin','callegomezfarias');
-INSERT INTO persona VALUES(59,'Shunely','Bonifacio','De Jesus','BODS840529NBHFSSW9','F','Hidalgo',7345689030,'50789','Metepec','Morelos','Farias','Magdalena','callegeranio');
-INSERT INTO persona VALUES(60,'Luis','Nava','Martinez','NAML830430NHYKYYZ0','M','Estado de Mexico',7122456734,'lnmartinez@gmail.com','5760','Ixtlahuaca','rayon','San Lorenzo Toxico','Manzana 1');
+INSERT INTO persona VALUES(59,'Shunely','Bonifacio','De Jesus','BODS840529NBHFSSW9','F','Hidalgo',7345689030,'sdbonifacio@gmail.com','50789','Metepec','Morelos','Farias','callegeranio');
+INSERT INTO persona VALUES(60,'Luis','Nava','Martinez','NAML830430NHYKYYZ0','M','Estado de Mexico',7122456734,'lnmartinez@gmail.com','5760','Ixtlahuaca','Rayon','San Lorenzo Toxico','Manzana 1');
 
 #Tabla Opcion
 INSERT INTO opcion VALUES (0,'EQUIV','No_Cursada',' Curso Especial');
