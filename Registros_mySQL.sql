@@ -59,7 +59,17 @@ INSERT INTO persona VALUES(57,'Jesus Eduardo','Fuentez','Quezada','FUQJ860327HGY
 INSERT INTO persona VALUES(58,'Jackelin','Orduña','Antonio','ORAJ850428CHFBJJT8','F','Estado de Mexico',5534678856,'joantonio@gmail.com','50625','jocotitlan','Losreyes','barriomartin','callegomezfarias');
 INSERT INTO persona VALUES(59,'Shunely','Bonifacio','De Jesus','BODS840529NBHFSSW9','F','Hidalgo',7345689030,'sdbonifacio@gmail.com','50789','Metepec','Morelos','Farias','callegeranio');
 INSERT INTO persona VALUES(60,'Luis','Nava','Martinez','NAML830430NHYKYYZ0','M','Estado de Mexico',7122456734,'lnmartinez@gmail.com','5760','Ixtlahuaca','Rayon','San Lorenzo Toxico','Manzana 1');
-#Registros opcion
+
+#Tabla Opcion
+INSERT INTO opcion VALUES (0,'EQUIV','No_Cursada',' Curso Especial');
+INSERT INTO opcion VALUES (1,'CN1','Primera Oportunidad O','Curso Ordinario');
+INSERT INTO opcion VALUES (2,'ER1','Segunda Oportunidad O','Curso Ordinario');
+INSERT INTO opcion VALUES (3,'EEX','Curso sabatino','Curso Especial');
+INSERT INTO opcion VALUES (4,'CN2','Primera Oportunidad R','Curso Recurse');
+INSERT INTO opcion VALUES (5,'ER2','Segunda Oportunidad R','Curso Recurse');
+INSERT INTO opcion VALUES (6,'EG1','Curso Verano O','Curso Ordinario');
+INSERT INTO opcion VALUES (7,'EG2','Curso Verano E','Curso Especial');
+INSERT INTO opcion VALUES (8,'EE','Especial','Curso Especial');
 
 # Registros Alumnos
 INSERT INTO alumnos VALUES ('2018150480052',01);
