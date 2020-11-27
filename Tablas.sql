@@ -203,7 +203,7 @@ constraint id_tipo_pk primary key(id_tipo)
 /*Tabla constancia*/
 create table constancia(
 id_constancia int not null, 
-fecha date,
+fecha varchar(10),
 num_control varchar(13) not null, 
 id_tipo int not null,
 id_pago int not null,
