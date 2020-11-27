@@ -111,6 +111,7 @@ CREATE TABLE opcion(
 	id_opcion int not null, 
 	nombre_opcion varchar(50) not null,
 	descripcion varchar(50) not null, 
+	modalidad varchar(30),
 	CONSTRAINT id_opcion_pk primary key(id_opcion)
 );
 
