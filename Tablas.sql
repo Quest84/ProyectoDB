@@ -169,12 +169,13 @@ constraint id_folio_fk foreign key(folio) references preinscripcion(folio) ON DE
 #Creacion de tabla examen en Oracle
 CREATE TABLE EXAMEN (
   ID_EXAMEN INT NOT NULL 
-, HORARIO DATE 
+, HORARIO VARCHAR(5) 
 , FECHA DATE 
 , LUGAR_APLICACION VARCHAR2(30) 
 , ID_PAGO INT 
 , NUM_FOLIO_PRE INT 
 , CONSTRAINT EXAMEN_PK PRIMARY KEY 
+,constraint fk_id_pago foreign key (id_pago) references pagos(id_pago)
   (
     ID_EXAMEN 
   )
