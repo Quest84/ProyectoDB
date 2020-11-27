@@ -41,7 +41,7 @@ CONSTRAINT fk_semestre FOREIGN KEY (id_semestre) REFERENCES semestre(id_semestre
 CREATE TABLE pagos(
 	id_pago int NOT NULL,
 	folio varchar(30) NOT NULL,
-	tipoPago varchar(30) NOT NULL,
+	tipoPago varchar(50) NOT NULL,
 	Cantidad int NOT NULL,
 	CONSTRAINT pk_pago PRIMARY KEY (id_pago)
 );
