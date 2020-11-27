@@ -451,7 +451,7 @@ INSERT INTO materias VALUES('SCC-1007','Fundametos de Ingenieria en Software',5,
 INSERT INTO materias VALUES('SCD-1003','Arquitectura de Computadoras',4,5,2,3,9103,1002);
 INSERT INTO materias VALUES('SCA-1025','Taller de Bases de Datos',5,4,4,0,9104,1003);
 INSERT INTO materias VALUES('AEC-1034','Fundamentos De Telecomunicaciones',5,4,2,2,9105,1004);
-INSERT INTO materias VALUES('ACC-0906','Fundametos de Investigacion',4,4,2,2,9106,1005);
+INSERT INTO materias VALUES('ACC-0926','Fundametos de Investigacion',4,4,2,2,9106,1005);
 INSERT INTO materias VALUES('ARC-1017','Geometria Descriptiva II',4,4,2,2,9107,1006);
 INSERT INTO materias VALUES('ARC-1013','Estructuras 1',4,4,2,2,9108,1006);
 INSERT INTO materias VALUES('AEF-1076','Investigación de Operaciones',6,3,2,5,9109,1006);
