@@ -34,7 +34,7 @@ CREATE TABLE unidades(
 id_unidad varchar(10) NOT NULL PRIMARY KEY,
 num_unidad tinyint,
 descripcion varchar(50),
-clave_materia int,
+clave_materia varchar(10),
 CONSTRAINT materia_unidades FOREIGN KEY(clave_materia) REFERENCES materias(clave_materia)
 ON DELETE CASCADE
 ON UPDATE CASCADE
